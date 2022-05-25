@@ -7,3 +7,6 @@ Open an issue for suggestions and feature requests or to share any relevant info
 This will be the central shared repo for the project.
 
 More to come soon.
+
+## Evolving Schema
+![schema](docs/schema.20220525.png)
