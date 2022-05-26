@@ -1,0 +1,270 @@
+
+
+type Release {
+    ID: Int!
+    Name: String!
+    AKA: String
+    Type: String
+    GfxType: String
+    Rating: Float
+    ReleaseDay: String
+    ReleaseMonth: String
+    ReleaseYear: String
+
+    ReleasedAt: [Int]
+    Achievement: ReleaseAchievement
+    ReleasedBy: ReleaseGroupsHandles
+    Credits: [ReleaseCredit]
+    UsedSIDs: [Int]
+
+    Website: [String]
+    ScreenShot: [String]
+    DownloadLinks: [ReleaseDownload]
+    OtherLinks: [ReleaseLink]
+
+    Comments: [ReleaseComment]
+    Groups: [Group]
+    Handles: [Handle]
+    Events: [Event]
+    SIDs: [SID]
+    Tags: [String]
+}
+
+type ReleaseAchievement {
+    Compo: String
+    Place: Int
+}
+
+type ReleaseGroupsHandles {
+    GroupIDs: [Int]
+    HandleIDs: [Int]
+}
+
+type ReleaseCredit {
+    CreditType: String!
+    HandleID: Int!
+    Handle: Handle
+}
+
+type ReleaseLink {
+    Title: String
+    Link: String!
+    CounterLink: String!
+    Clicks: Int
+}
+
+type ReleaseDownload {
+    CounterLink: String!
+    Downloads: Int
+    Filename: String
+    Link: String!
+    Status: String
+    crc32: String
+}
+
+type ReleaseComment {
+    Summary: [ReleaseCommentData]
+    Trivia: [ReleaseCommentData]
+    Goofs: [ReleaseCommentData]
+    HiddenPart: [ReleaseCommentData]
+    ProductionNote: [ReleaseCommentData]
+    UserComment: [ReleaseCommentData]
+}
+
+type ReleaseCommentData {
+    Date: String!
+    HandleID: Int!
+    Text: String!
+}
+
+
+type Group {
+    ID: Int!
+    Name: String!
+    AKA: String
+    Short: String
+    Trivia: String
+    BaseCountry: String
+    FoundMonth: Int
+    FoundYear: Int
+    Website: String
+    Rating: Float
+    DissolveMonth: Int
+    DissolveYear: Int
+    GroupTypes: [String]
+    Slogon: [String]
+    ReleaseIDs: [Int]
+    Releases: [Release]
+    Members: [GroupMember!]!
+    Tags: [String]
+}
+
+type GroupMember {
+    HandleID: Int!
+    Handle: Handle!
+    Profession: [String]
+    JoinMonth: Int
+    JoinYear: Int
+    LeaveMonth: Int
+    LeaveYear: Int
+    Status: String
+}
+
+type Scener {
+    ID: Int!
+    Login: String!
+    Password: String!
+    Handle: String
+    RegisterdDate: String
+    Country: String
+    Trivia: String
+    HandleIDs: [Int]
+    Handles: [Handle]
+    BBSIDs: [Int]
+    BBSs: [BBS]
+    Organized: [Int]
+    Attended: [Int]
+    Events: [Event]
+    ReleaseIDs: [Int]
+    Releases: [Release]
+}
+
+
+type Handle {
+    ID: Int!
+    Handle: String!
+    CurrentlyUsedHandle: Int
+    HandleStory: String
+    FreelanceFunctions: [String]
+    ScenerID: Int!
+    Scener: [Scener]
+    Credits: [HandleCredit]
+    EventIDs: [Int]
+    Events: [Event]
+    MemberOf: [HandleGroup]
+}
+
+type HandleGroup {
+    GroupID: Int!
+    Group: Group
+    MemberStats: GroupMember
+}
+
+type HandleCredit {
+    CreditType: String!
+    ReleaseID: Int!
+    Release: Release
+}
+
+type Event {
+    ID: Int!
+    Name: String!
+    EventType: [String]
+    Tagline: String
+    AKA: String
+    StartDay: Int
+    StartMonth: Int
+    StartYear: Int
+    EndDay: Int
+    EndMonth: Int
+    EndYear: Int
+    Address: String
+    City: String
+    State: String
+    Zip: String
+    Country: String
+    Website: String
+    OrganizerGroup: Group
+    Compos: [EventCompo]
+    PartyReport: [EventReport]
+    UserComment: [EventComment]
+    Sceners: [Scener]
+}
+
+type EventCompo {
+    Type: String
+    ReleaseIDs: [Int]
+    Releases: [Release]
+}
+
+type EventReport {
+    ScenerID: Int!
+    SubmittedBy: Scener
+    WrittenBy: String
+    Date: String
+    Headline: String
+    Text: String
+}
+
+type EventComment {
+    ScenerID: Int!
+    Date: String!
+    Text: String!
+}
+
+type BBS {
+    ID: Int!
+    Name: String!
+    Short: String
+    Trivia: String
+    OnlinePeriod: [BBSOnlinePeriod]
+    Phone: [String]
+    Host: String
+    Port: Int
+    City: String
+    State: String
+    Country: String
+    GroupID: Int
+    Group: Group
+    Sysops: [BBSSysop]
+    Users: [BBSUser]
+    Status: String
+    Handles: [Handle]
+}
+
+type BBSOnlinePeriod {
+    StartDay: Int
+    StartMonth: Int
+    StartYear: Int
+    EndDay: Int
+    EndMonth: Int
+    EndYear: Int
+}
+
+type BBSSysop {
+    Type: String
+    HandleID: Int
+}
+
+type BBSUser {
+    HandleID: Int
+}
+
+type SID {
+    ID: Int!
+    HVSCPath: String
+    Name: String
+    Author: String
+    Released: String
+    LoadAddr: Int
+    InitAddr: Int
+    PlayAddr: Int
+    NOSongs: Int
+    DefaultSong: Int
+    SIDModel: String
+    ClockSpeed: String
+    DataSize: Int
+    ReleaseIDs: [Int]
+    UsedIn: [Release]
+}
+
+
+type Query {
+    release(id: Int!): Release
+    group(id: Int!): Group
+    scener(id: Int!): Scener
+    handle(id: Int!): Handle
+    event(id: Int!): Event
+    bbs(id: Int!): BBS
+    sid(id: Int!): SID
+}
