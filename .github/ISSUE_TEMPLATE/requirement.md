@@ -2,7 +2,7 @@
 name: Requirement
 about: Define a requirement for this project
 title: "[REQUIREMENT]"
-labels: ''
+labels: requirement
 assignees: ''
 
 ---
