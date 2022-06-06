@@ -1,5 +1,40 @@
 
 
+type Date {
+    Operator: String
+    Day: Int
+    Month: Int
+    Year: Int
+    Comment: String
+}
+
+
+type User {
+    ID: Int!
+    Name: String!
+    Email: String
+    Password: String
+
+    MaintainerOf: UserRecords
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
+}
+
+type UserRecords {
+    ReleaseIDs: [Int]
+    GroupIDs: [Int]
+    ScenerIDs: [Int]
+    HandleIDs: [Int]
+    EventIDs: [Int]
+    BBSIDs: [Int]
+    SIDIDs: [Int]
+}
+
+
 type Release {
     ID: Int!
     Name: String!
@@ -7,27 +42,34 @@ type Release {
     Type: String
     GfxType: String
     Rating: Float
-    ReleaseDay: String
-    ReleaseMonth: String
-    ReleaseYear: String
+    ReleaseDate: [Date]
 
-    ReleasedAt: [Int]
+    ReleasedAt: Int
     Achievement: ReleaseAchievement
     ReleasedBy: ReleaseGroupsHandles
     Credits: [ReleaseCredit]
-    UsedSIDs: [Int]
 
-    Website: [String]
-    ScreenShot: [String]
+    Website: String
+    ScreenShot: String
     DownloadLinks: [ReleaseDownload]
     OtherLinks: [ReleaseLink]
 
     Comments: [ReleaseComment]
+
+    SIDIDs: [Int]
+
     Groups: [Group]
+    Sceners: [Scener]
     Handles: [Handle]
     Events: [Event]
     SIDs: [SID]
     Tags: [String]
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
 }
 
 type ReleaseAchievement {
@@ -43,7 +85,6 @@ type ReleaseGroupsHandles {
 type ReleaseCredit {
     CreditType: String!
     HandleID: Int!
-    Handle: Handle
 }
 
 type ReleaseLink {
@@ -72,8 +113,8 @@ type ReleaseComment {
 }
 
 type ReleaseCommentData {
-    Date: String!
-    HandleID: Int!
+    Date: Int!
+    ScenerID: Int!
     Text: String!
 }
 
@@ -83,123 +124,169 @@ type Group {
     Name: String!
     AKA: String
     Short: String
+    Rating: Float
     Trivia: String
     BaseCountry: String
-    FoundMonth: Int
-    FoundYear: Int
+
+    FoundDate: [Date]
+    DissolveDate: [Date]
+
     Website: String
-    Rating: Float
-    DissolveMonth: Int
-    DissolveYear: Int
-    GroupTypes: [String]
-    Slogon: [String]
+    Grouptypes: [String]
+    Slogan: [String]
+    UserComment: [GroupCommentData]
+
     ReleaseIDs: [Int]
+    Members: [GroupMember]
+    FounderHandleIDs: [Int]
+    OrganizedEventIDs: [Int]
+    BBSIDs: [Int]
+
     Releases: [Release]
-    Members: [GroupMember!]!
+    Sceners: [Scener]
+    Handles: [Handle]
+    Events: [Event]
+    BBSs: [BBS]
     Tags: [String]
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
+}
+
+type GroupCommentData {
+    Date: Int!
+    ScenerID: Int!
+    Text: String!
 }
 
 type GroupMember {
-    HandleID: Int!
-    Handle: Handle!
+    GroupID: Int
+    HandleID: Int
     Profession: [String]
-    JoinMonth: Int
-    JoinYear: Int
-    LeaveMonth: Int
-    LeaveYear: Int
+
+    JoinDate: [Date]
+    LeaveDate: [Date]
+
     Status: String
 }
 
+
 type Scener {
     ID: Int!
-    Login: String!
-    Password: String!
-    Handle: String
     RegisterdDate: String
     Country: String
-    Trivia: String
+
+    BirthDate: [Date]
+    DeathDate: [Date]
+
     HandleIDs: [Int]
+
     Handles: [Handle]
-    BBSIDs: [Int]
-    BBSs: [BBS]
-    Organized: [Int]
-    Attended: [Int]
-    Events: [Event]
-    ReleaseIDs: [Int]
-    Releases: [Release]
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
 }
 
 
 type Handle {
     ID: Int!
     Handle: String!
-    CurrentlyUsedHandle: Int
+    CurrentlyUsedHandle: Boolean
     HandleStory: String
     FreelanceFunctions: [String]
-    ScenerID: Int!
-    Scener: [Scener]
-    Credits: [HandleCredit]
-    EventIDs: [Int]
-    Events: [Event]
     MemberOf: [HandleGroup]
+    Credits: [HandleCredit]
+
+    FoundedGroupIDs: [Int]
+    OrganizedEventIDs: [Int]
+    AttendedEventIDs: [Int]
+    ScenerIDs: [Int]
+
+    Releases: [Release]
+    Groups: [Group]
+    Sceners: [Scener]
+    Events: [Event]
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
 }
 
 type HandleGroup {
     GroupID: Int!
-    Group: Group
     MemberStats: GroupMember
 }
 
 type HandleCredit {
     CreditType: String!
     ReleaseID: Int!
-    Release: Release
 }
+
 
 type Event {
     ID: Int!
     Name: String!
     EventType: [String]
-    Tagline: String
     AKA: String
-    StartDay: Int
-    StartMonth: Int
-    StartYear: Int
-    EndDay: Int
-    EndMonth: Int
-    EndYear: Int
+    Tagline: String
+
+    StartDate: [Date]
+    EndDate: [Date]
+
     Address: String
     City: String
     State: String
     Zip: String
     Country: String
     Website: String
+
     OrganizerGroup: Group
-    Compos: [EventCompo]
+    Compo: [EventCompo]
     PartyReport: [EventReport]
     UserComment: [EventComment]
-    Sceners: [Scener]
+    Organizers: EventOrganizers
+
+    Releases: [Release]
+    Groups: [Group]
+    Handles: [Handle]
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
 }
 
 type EventCompo {
     Type: String
     ReleaseIDs: [Int]
-    Releases: [Release]
 }
 
 type EventReport {
-    ScenerID: Int!
-    SubmittedBy: Scener
+    HandleID: Int!
     WrittenBy: String
-    Date: String
+    Date: Int
     Headline: String
     Text: String
 }
 
 type EventComment {
-    ScenerID: Int!
-    Date: String!
+    HandleID: Int!
+    Date: Int!
     Text: String!
+}
+
+type EventOrganizers {
+    GroupIDs: [Int]
+    HandleIDs: [Int]
 }
 
 type BBS {
@@ -208,27 +295,32 @@ type BBS {
     Short: String
     Trivia: String
     OnlinePeriod: [BBSOnlinePeriod]
-    Phone: [String]
+    Phone: String
     Host: String
     Port: Int
     City: String
     State: String
     Country: String
-    GroupID: Int
-    Group: Group
-    Sysops: [BBSSysop]
-    Users: [BBSUser]
+
+    Sysop: [BBSSysop]
     Status: String
+
+    GroupIDs: [Int]
+    UserHandleIDs: [Int]
+
+    Groups: [Group]
     Handles: [Handle]
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
 }
 
 type BBSOnlinePeriod {
-    StartDay: Int
-    StartMonth: Int
-    StartYear: Int
-    EndDay: Int
-    EndMonth: Int
-    EndYear: Int
+    StartDate: [Date]
+    EndDate: [Date]
 }
 
 type BBSSysop {
@@ -236,9 +328,6 @@ type BBSSysop {
     HandleID: Int
 }
 
-type BBSUser {
-    HandleID: Int
-}
 
 type SID {
     ID: Int!
@@ -254,17 +343,51 @@ type SID {
     SIDModel: String
     ClockSpeed: String
     DataSize: Int
+
     ReleaseIDs: [Int]
-    UsedIn: [Release]
+
+    Releases: [Release]
+
+    uuid: String
+    dateCreated: String
+    dateUpdated: String
+    deleted: Boolean
+    dateDeleted: String
 }
 
 
 type Query {
-    release(id: Int!): Release
-    group(id: Int!): Group
-    scener(id: Int!): Scener
-    handle(id: Int!): Handle
-    event(id: Int!): Event
-    bbs(id: Int!): BBS
-    sid(id: Int!): SID
+    getRelease(id: Int!) : Release
+    getGroup(id: Int!) : Group
+    getScener(id: Int!) : Scener
+    getHandle(id: Int!) : Handle
+    getEvent(id: Int!) : Event
+    getBBS(id: Int!) : BBS
+    getSID(id: Int!) : SID
+}
+
+type Mutation {
+    createRelease(id: Int!) : Release
+    createGroup(id: Int!) : Group
+    createScener(id: Int!) : Scener
+    createHandle(id: Int!) : Handle
+    createEvent(id: Int!) : Event
+    createBBS(id: Int!) : BBS
+    createSID(id: Int!) : SID
+
+    updateRelease(id: Int!) : Release
+    updateGroup(id: Int!) : Group
+    updateScener(id: Int!) : Scener
+    updateHandle(id: Int!) : Handle
+    updateEvent(id: Int!) : Event
+    updateBBS(id: Int!) : BBS
+    updateSID(id: Int!) : SID
+
+    deleteRelease(id: Int!) : Release
+    deleteGroup(id: Int!) : Group
+    deleteScener(id: Int!) : Scener
+    deleteHandle(id: Int!) : Handle
+    deleteEvent(id: Int!) : Event
+    deleteBBS(id: Int!) : BBS
+    deleteSID(id: Int!) : SID
 }
