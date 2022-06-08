@@ -1,6 +1,6 @@
 
 
-type Date {
+type FuzzyDate {
     Operator: String
     Day: Int
     Month: Int
@@ -42,7 +42,7 @@ type Release {
     Type: String
     GfxType: String
     Rating: Float
-    ReleaseDate: [Date]
+    ReleaseDate: [FuzzyDate]
 
     ReleasedAt: Int
     Achievement: ReleaseAchievement
@@ -128,8 +128,8 @@ type Group {
     Trivia: String
     BaseCountry: String
 
-    FoundDate: [Date]
-    DissolveDate: [Date]
+    FoundDate: [FuzzyDate]
+    DissolveDate: [FuzzyDate]
 
     Website: String
     Grouptypes: [String]
@@ -167,8 +167,8 @@ type GroupMember {
     HandleID: Int
     Profession: [String]
 
-    JoinDate: [Date]
-    LeaveDate: [Date]
+    JoinDate: [FuzzyDate]
+    LeaveDate: [FuzzyDate]
 
     Status: String
 }
@@ -179,8 +179,8 @@ type Scener {
     RegisterdDate: String
     Country: String
 
-    BirthDate: [Date]
-    DeathDate: [Date]
+    BirthDate: [FuzzyDate]
+    DeathDate: [FuzzyDate]
 
     HandleIDs: [Int]
 
@@ -238,8 +238,8 @@ type Event {
     AKA: String
     Tagline: String
 
-    StartDate: [Date]
-    EndDate: [Date]
+    StartDate: [FuzzyDate]
+    EndDate: [FuzzyDate]
 
     Address: String
     City: String
@@ -319,8 +319,8 @@ type BBS {
 }
 
 type BBSOnlinePeriod {
-    StartDate: [Date]
-    EndDate: [Date]
+    StartDate: [FuzzyDate]
+    EndDate: [FuzzyDate]
 }
 
 type BBSSysop {
