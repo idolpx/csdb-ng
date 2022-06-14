@@ -1,0 +1,1001 @@
+{
+  "ID": 5,
+  "Name": "Padua",
+  "Short": "PDA",
+  "BaseCountry": "Germany",
+  "Website": "http://www.padua.org/",
+  "Rating": 8.04,
+  "Grouptypes": [
+    "Demo Group"
+  ],
+  "Slogan": [
+    "Style is Innate!",
+    "Classics last longer!",
+    "Wir haben Hunger!",
+    "We try hard!",
+    "Style is our talent!",
+    "Style causes hunger!",
+    "Padua suits you!"
+  ],
+  "UserComment": [
+    {
+      "Date": 1017727200,
+      "Text": "My favourite group ;-)\n\n(I might be a little biassed, though.)",
+      "ScenerID": 147
+    }
+  ],
+  "FoundDate": [
+    {
+      "Month": 3,
+      "Year": 1990
+    }
+  ],
+  "ReleaseIDs": [
+    1,
+    2,
+    28,
+    3594,
+    3425,
+    707,
+    708,
+    709,
+    710,
+    711,
+    712,
+    157,
+    158,
+    138,
+    814,
+    825,
+    829,
+    844,
+    849,
+    850,
+    851,
+    852,
+    853,
+    855,
+    856,
+    857,
+    858,
+    859,
+    860,
+    861,
+    862,
+    863,
+    864,
+    865,
+    866,
+    867,
+    868,
+    869,
+    870,
+    871,
+    872,
+    874,
+    875,
+    876,
+    877,
+    907,
+    2374,
+    2619,
+    2621,
+    2623,
+    2377,
+    3754,
+    3980,
+    3983,
+    3984,
+    3985,
+    3989,
+    4350,
+    4352,
+    4353,
+    4354,
+    4355,
+    4423,
+    5108,
+    5109,
+    5110,
+    5368,
+    6400,
+    6403,
+    6444,
+    6818,
+    6880,
+    6994,
+    7238,
+    7387,
+    6464,
+    8155,
+    8156,
+    8205,
+    8308,
+    8311,
+    8447,
+    8581,
+    8591,
+    9457,
+    9728,
+    9744,
+    9757,
+    9759,
+    8700,
+    9544,
+    12420,
+    12482,
+    12486,
+    12539,
+    12552,
+    12554,
+    12765,
+    12774,
+    14012,
+    14442,
+    14443,
+    17508,
+    17509,
+    17517,
+    17600,
+    20159,
+    20182,
+    20810,
+    21317,
+    23649,
+    26504,
+    30114,
+    30171,
+    34179,
+    38886,
+    38998,
+    45020,
+    47769,
+    48548,
+    52416,
+    56894,
+    61707,
+    63835,
+    63836,
+    63837,
+    63830,
+    63856,
+    63881,
+    63925,
+    64072,
+    68305,
+    69211,
+    73911,
+    74521,
+    76703,
+    76823,
+    76926,
+    79286,
+    81761,
+    82618,
+    85996,
+    141021,
+    89883,
+    90406,
+    90837,
+    91077,
+    92295,
+    94792,
+    96342,
+    96987,
+    96988,
+    97360,
+    2158,
+    98788,
+    101101,
+    102171,
+    103093,
+    103089,
+    103590,
+    8161,
+    8171,
+    105293,
+    106912,
+    109391,
+    28708,
+    109776,
+    109789,
+    110159,
+    3378,
+    112363,
+    116844,
+    124387,
+    125023,
+    128320,
+    129251,
+    129252,
+    129665,
+    131131,
+    133982,
+    136015,
+    136030,
+    137019,
+    137169,
+    143958,
+    76819,
+    47867,
+    149563,
+    151270,
+    151330,
+    154612,
+    155521,
+    156909,
+    156960,
+    157485,
+    158951,
+    160049,
+    161533,
+    161563,
+    162503,
+    162850,
+    163242,
+    163238,
+    167701,
+    167703,
+    170900,
+    172255,
+    172630,
+    175102,
+    175123,
+    175441,
+    177821,
+    178789,
+    182575,
+    183437,
+    186057,
+    187085,
+    187525,
+    187977,
+    188346,
+    190651,
+    191785,
+    192943,
+    194467,
+    195961,
+    197554,
+    197571,
+    197878,
+    197938,
+    197992,
+    198040,
+    183944,
+    186479,
+    199238,
+    199933,
+    200255,
+    200568,
+    200581,
+    201627,
+    203390,
+    203514,
+    203662,
+    207900,
+    209486,
+    209805,
+    216167,
+    216578
+  ],
+  "Members": [
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician",
+        "Swapper"
+      ],
+      "JoinMonth": "3",
+      "JoinYear": "1991",
+      "Status": "ex",
+      "HandleID": 3135
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "Status": "inactive",
+      "HandleID": 678
+    },
+    {
+      "Profession": [
+        "Cover Designer",
+        "Swapper"
+      ],
+      "Status": "ex",
+      "HandleID": 2786
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "Status": "inactive",
+      "HandleID": 1686
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "HandleID": 1674
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Graphician",
+        "Logo Graphician"
+      ],
+      "JoinYear": "1990",
+      "Status": "ex",
+      "HandleID": 1622
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "Status": "ex",
+      "HandleID": 1690
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinMonth": "6",
+      "JoinYear": "1991",
+      "LeaveYear": "1994",
+      "Status": "ex",
+      "HandleID": 1651
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "active",
+      "HandleID": 1185
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Diskmag Editor"
+      ],
+      "Status": "ex",
+      "HandleID": 3118
+    },
+    {
+      "JoinYear": "1993",
+      "Status": "ex",
+      "HandleID": 1675
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "inactive",
+      "HandleID": 1616
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "4",
+      "JoinYear": "1998",
+      "Status": "inactive",
+      "HandleID": 3235
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Graphician",
+        "Logo Graphician",
+        "Musician"
+      ],
+      "Status": "inactive",
+      "HandleID": 1654
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "Status": "inactive",
+      "HandleID": 1685
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Swapper"
+      ],
+      "JoinYear": "1990",
+      "LeaveMonth": "2",
+      "LeaveYear": "1992",
+      "Status": "ex",
+      "HandleID": 124
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinDay": "2",
+      "JoinMonth": "10",
+      "JoinYear": "2001",
+      "Status": "active",
+      "HandleID": 1618
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "JoinMonth": "11",
+      "JoinYear": "1996",
+      "Status": "active",
+      "HandleID": 8137
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Net Trader",
+        "Cracker",
+        "Author",
+        "Hardware-Guru"
+      ],
+      "JoinYear": "1998",
+      "Status": "active",
+      "HandleID": 1095
+    },
+    {
+      "Profession": [
+        "Swapper"
+      ],
+      "Status": "ex",
+      "HandleID": 3124
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Graphician"
+      ],
+      "JoinDay": "24",
+      "JoinMonth": "10",
+      "JoinYear": "2003",
+      "LeaveDay": "15",
+      "LeaveMonth": "3",
+      "LeaveYear": "2007",
+      "Status": "ex",
+      "HandleID": 376
+    },
+    {
+      "Profession": [
+        "Musician",
+        "Sysop"
+      ],
+      "Status": "inactive",
+      "HandleID": 445
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "Status": "ex",
+      "HandleID": 10926
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "JoinMonth": "3",
+      "JoinYear": "1991",
+      "Status": "inactive",
+      "HandleID": 1653
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Graphician"
+      ],
+      "JoinMonth": "11",
+      "JoinYear": "1997",
+      "Status": "active",
+      "HandleID": 1433
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinMonth": "12",
+      "JoinYear": "1999",
+      "Status": "active",
+      "HandleID": 8087
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinYear": "1990",
+      "Status": "ex",
+      "HandleID": 1621
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Author"
+      ],
+      "JoinDay": "9",
+      "JoinMonth": "4",
+      "JoinYear": "2004",
+      "Status": "active",
+      "HandleID": 1079
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "Status": "ex",
+      "HandleID": 10571
+    },
+    {
+      "Profession": [
+        "Swapper"
+      ],
+      "JoinYear": "1992",
+      "Status": "ex",
+      "HandleID": 10581
+    },
+    {
+      "Profession": [
+        "Sysop",
+        "Swapper",
+        "Public Relations Manager"
+      ],
+      "JoinYear": "1991",
+      "Status": "inactive",
+      "HandleID": 392
+    },
+    {
+      "Profession": [
+        "Swapper"
+      ],
+      "JoinYear": "1998",
+      "Status": "inactive",
+      "HandleID": 294
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinDay": "14",
+      "JoinMonth": "8",
+      "JoinYear": "1998",
+      "Status": "inactive",
+      "HandleID": 22
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinDay": "8",
+      "JoinMonth": "9",
+      "JoinYear": "1998",
+      "Status": "ex",
+      "HandleID": 3640
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "3",
+      "JoinYear": "1991",
+      "Status": "inactive",
+      "HandleID": 823
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinDay": "14",
+      "JoinMonth": "4",
+      "JoinYear": "1999",
+      "Status": "active",
+      "HandleID": 124
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinYear": "2000",
+      "LeaveYear": "2002",
+      "Status": "ex",
+      "HandleID": 1617
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinYear": "1998",
+      "LeaveYear": "1999",
+      "Status": "ex",
+      "HandleID": 2170
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinMonth": "7",
+      "JoinYear": "1998",
+      "Status": "inactive",
+      "HandleID": 5262
+    },
+    {
+      "Profession": [
+        "Musician",
+        "Swapper"
+      ],
+      "Status": "ex",
+      "HandleID": 1028
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "Status": "ex",
+      "HandleID": 18923
+    },
+    {
+      "Profession": [
+        "Cracker"
+      ],
+      "Status": "ex",
+      "HandleID": 19102
+    },
+    {
+      "Profession": [
+        "Webmaster"
+      ],
+      "JoinMonth": "2",
+      "JoinYear": "1998",
+      "Status": "ex",
+      "HandleID": 603
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "LeaveMonth": "10",
+      "LeaveYear": "1993",
+      "Status": "ex",
+      "HandleID": 1614
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinMonth": "6",
+      "JoinYear": "1991",
+      "Status": "ex",
+      "HandleID": 1687
+    },
+    {
+      "Profession": [
+        "Swapper"
+      ],
+      "Status": "ex",
+      "HandleID": 20017
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "LeaveYear": "1993",
+      "Status": "ex",
+      "HandleID": 19476
+    },
+    {
+      "Profession": [
+        "Cover Designer",
+        "Swapper"
+      ],
+      "Status": "ex",
+      "HandleID": 23419
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Musician"
+      ],
+      "JoinMonth": "6",
+      "JoinYear": "1998",
+      "LeaveDay": "8",
+      "LeaveMonth": "4",
+      "LeaveYear": "2004",
+      "Status": "ex",
+      "HandleID": 8581
+    },
+    {
+      "Profession": [
+        "Sysop"
+      ],
+      "JoinMonth": "6",
+      "JoinYear": "1998",
+      "Status": "ex",
+      "HandleID": 3011
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinMonth": "7",
+      "JoinYear": "1998",
+      "Status": "inactive",
+      "HandleID": 862
+    },
+    {
+      "Profession": [
+        "Diskmag Editor"
+      ],
+      "JoinMonth": "12",
+      "JoinYear": "1998",
+      "Status": "inactive",
+      "HandleID": 779
+    },
+    {
+      "Profession": [
+        "Webmaster",
+        "Diskmag Editor"
+      ],
+      "JoinMonth": "2",
+      "JoinYear": "1999",
+      "Status": "active",
+      "HandleID": 1068
+    },
+    {
+      "Profession": [
+        "Co-Organizer",
+        "Coder"
+      ],
+      "JoinMonth": "4",
+      "JoinYear": "1999",
+      "Status": "active",
+      "HandleID": 1615
+    },
+    {
+      "Profession": [
+        "Musician",
+        "Swapper"
+      ],
+      "JoinDay": "21",
+      "JoinMonth": "8",
+      "JoinYear": "1998",
+      "LeaveDay": "25",
+      "LeaveMonth": "5",
+      "LeaveYear": "1999",
+      "Status": "ex",
+      "HandleID": 737
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "4",
+      "JoinYear": "2000",
+      "Status": "inactive",
+      "HandleID": 5854
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinDay": "2",
+      "JoinMonth": "10",
+      "JoinYear": "2001",
+      "Status": "active",
+      "HandleID": 1619
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "8",
+      "JoinYear": "2002",
+      "Status": "active",
+      "HandleID": 385
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "HandleID": 320
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "4",
+      "JoinYear": "1998",
+      "Status": "active",
+      "HandleID": 436
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "4",
+      "JoinYear": "1998",
+      "Status": "active",
+      "HandleID": 473
+    },
+    {
+      "Profession": [
+        "Organizer",
+        "Coder",
+        "Swapper",
+        "FTP Administrator",
+        "Webmaster",
+        "Public Relations Manager"
+      ],
+      "JoinYear": "1989",
+      "Status": "active",
+      "HandleID": 314
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Musician"
+      ],
+      "JoinMonth": "3",
+      "JoinYear": "1991",
+      "Status": "inactive",
+      "HandleID": 617
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "3",
+      "JoinYear": "1991",
+      "Status": "inactive",
+      "HandleID": 599
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinDay": "30",
+      "JoinMonth": "8",
+      "JoinYear": "2016",
+      "Status": "active",
+      "HandleID": 13501
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinDay": "5",
+      "JoinMonth": "5",
+      "JoinYear": "2014",
+      "Status": "inactive",
+      "HandleID": 9671
+    },
+    {
+      "JoinDay": "1",
+      "JoinMonth": "1",
+      "JoinYear": "2021",
+      "Status": "active",
+      "HandleID": 1732
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "Status": "ex",
+      "HandleID": 1682
+    },
+    {
+      "Profession": [
+        "FTP Supporter",
+        "Cover Designer"
+      ],
+      "JoinMonth": "10",
+      "JoinYear": "1998",
+      "Status": "inactive",
+      "HandleID": 1679
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinYear": "2001",
+      "LeaveYear": "2001",
+      "Status": "ex",
+      "HandleID": 2170
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinDay": "27",
+      "JoinMonth": "11",
+      "JoinYear": "2020",
+      "Status": "active",
+      "HandleID": 27749
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": "6",
+      "JoinYear": "1998",
+      "Status": "active",
+      "HandleID": 3518
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinDay": "6",
+      "JoinMonth": "12",
+      "JoinYear": "2020",
+      "Status": "active",
+      "HandleID": 35445
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Logo Graphician"
+      ],
+      "JoinDay": "30",
+      "JoinMonth": "8",
+      "JoinYear": "2021",
+      "Status": "active",
+      "HandleID": 10931
+    }
+  ],
+  "FounderHandleIDs": [
+    124,
+    1614,
+    1621,
+    1622,
+    314
+  ],
+  "OrganizedEventIDs": [
+    250,
+    8,
+    28,
+    135,
+    461,
+    462,
+    933,
+    919,
+    1099,
+    1121,
+    1307,
+    1370,
+    1452,
+    1536,
+    1680,
+    1841,
+    3011,
+    3071
+  ],
+  "BBSIDs": [
+    379,
+    392,
+    229,
+    605,
+    4
+  ]
+}

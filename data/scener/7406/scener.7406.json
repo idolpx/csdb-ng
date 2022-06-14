@@ -1,0 +1,45 @@
+{
+  "ID": 7406,
+  "Country": "Germany",
+  "Trivia": "Legal only\nEx-Skyhigh, Domination, Newspress editor",
+  "Handles": [
+    {
+      "Handle": [
+        {
+          "ID": "4422",
+          "Handle": "Bauknecht",
+          "CurrentlyUsedHandle": "false",
+          "HandleStory": "Just another fridge, like AEG",
+          "Scener": {
+            "ID": "7406"
+          },
+          "FreelanceFunctions": {
+            "Function": [
+              "Coder",
+              "Cracker",
+              "Graphician"
+            ]
+          }
+        },
+        {
+          "ID": "8649"
+        },
+        {
+          "ID": "8137",
+          "Handle": "Cupid",
+          "CurrentlyUsedHandle": "true",
+          "Scener": {
+            "ID": "7406"
+          },
+          "FreelanceFunctions": {
+            "Function": [
+              "Fullscreen Graphician",
+              "Graphician",
+              "Logo Graphician"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

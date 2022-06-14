@@ -1,0 +1,255 @@
+{
+  "ID": 5262,
+  "Handle": "Hi-Lite",
+  "CurrentlyUsedHandle": true,
+  "FreelanceFunctions": [
+    "Coder",
+    "Graphician",
+    "Swapper"
+  ],
+  "MemberOf": [
+    {
+      "Profession": [
+        "Coder",
+        "Graphician",
+        "Swapper"
+      ],
+      "JoinMonth": 4,
+      "JoinYear": 1992,
+      "LeaveMonth": 9,
+      "LeaveYear": 1994,
+      "Status": "ex",
+      "GroupID": 913
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Swapper"
+      ],
+      "JoinDay": 1,
+      "JoinMonth": 1,
+      "JoinYear": 1994,
+      "LeaveMonth": 9,
+      "LeaveYear": 1994,
+      "Status": "ex",
+      "GroupID": 133
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Graphician",
+        "Swapper"
+      ],
+      "JoinMonth": 9,
+      "JoinYear": 1994,
+      "Status": "ex",
+      "GroupID": 853
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinMonth": 7,
+      "JoinYear": 1998,
+      "Status": "inactive",
+      "GroupID": 5
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "JoinMonth": 10,
+      "JoinYear": 1995,
+      "LeaveMonth": 7,
+      "LeaveYear": 1998,
+      "Status": "ex",
+      "GroupID": 114
+    }
+  ],
+  "BBSUser": {
+    "BBS": {
+      "ID": "271",
+      "Name": "Rebellion",
+      "Trivia": "Rebellion was the first &lt;group id=133&gt; HQ, but was soon dropped in favour of &lt;bbs id=4&gt; \n\n(WL got a PC.... traitor scum!) :) \n\nVandalism News magazine WHQ.\n\nUserlist updated off of recovered 5.25\" boot disk of cbase, call log. Added users I could find on csdb. This was not the complete list; the board lived for about 6 months after that backup was made (e.g. most motiv8 people are missing, as well as many from avantgarde that dialed in). Final backup disks of the CMD HDD were lost, excepting sides 43/44 of the backup set.\n\nother trivia;\n\nDeathlok did the graphics for the board. \n\nThe board was originally a legal board named \"Gridpoint\" (homage to William Gibson's Neuromancer short story, and the C64 game of the same name). Gridpoint was taken down and resurrected as an elite board when the sysop joined the scene, after dialing board numbers on crack intros and meeting all of these new and interesting people. :)",
+      "OnlinePeriod": {
+        "StartMonth": "1",
+        "StartYear": "1993",
+        "EndMonth": "9",
+        "EndYear": "1994"
+      },
+      "Phone": "309-346-1684",
+      "Zip": "61554",
+      "City": "Pekin",
+      "State": "Illinois",
+      "Country": "United States"
+    }
+  },
+  "Credits": [
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 14690
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 14690
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 17486
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 17486
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 141183
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 141183
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 41020
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3151
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3148
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2377
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 54983
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 54983
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 14683
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 14683
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 66848
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 66848
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 66849
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 66849
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 66860
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 66860
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 79989
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 79989
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 80050
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 80050
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 96342
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 96342
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 98254
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 99545
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 99545
+    },
+    {
+      "CreditType": "Interviewed",
+      "ReleaseID": 7342
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 106329
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 106329
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 108915
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 470
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 145510
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 145510
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 145510
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 825
+    }
+  ],
+  "AttendedEventIDs": [
+    211,
+    53,
+    445
+  ],
+  "ScenerIDs": [
+    5041
+  ]
+}

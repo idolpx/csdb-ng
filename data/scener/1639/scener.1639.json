@@ -1,0 +1,28 @@
+{
+  "ID": 1639,
+  "Country": "Germany",
+  "Trivia": "Handle change from Mc Moneysack to Steel mentioned in &lt;release id=212933&gt;.\n\nCo-Founder of Success\n\nLeft the scene in 1993 and became a renowned graffiti artist.\n\nCame back to the scene in 2016.\n\nA small documentation from 2019 about his graffiti and c64 heritage is available on the website of tv channel ARTE:\nhttps://www.arte.tv/de/videos/085941-005-A/5-minutes-with-kent/\nor on Youtube:\nhttps://www.youtube.com/watch?v=TRyFd8wPuMk",
+  "Handles": [
+    {
+      "Handle": [
+        {
+          "ID": "27184"
+        },
+        {
+          "ID": "1651",
+          "Handle": "Steel",
+          "CurrentlyUsedHandle": "true",
+          "Scener": {
+            "ID": "1639"
+          },
+          "FreelanceFunctions": {
+            "Function": [
+              "Musician",
+              "Swapper"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

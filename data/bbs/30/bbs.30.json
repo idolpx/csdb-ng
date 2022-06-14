@@ -1,0 +1,30 @@
+{
+  "ID": 30,
+  "Name": "Digital Twilight",
+  "Trivia": "This BBS had a toll free (800) number",
+  "Phone": "404-590-8996",
+  "State": "Georgia",
+  "Country": "United States",
+  "Sysop": [
+    {
+      "Type": "Main",
+      "HandleID": 19005
+    }
+  ],
+  "GroupIDs": [
+    790,
+    2059,
+    602,
+    789,
+    1188
+  ],
+  "UserHandleIDs": [
+    930,
+    405,
+    382,
+    2231,
+    5872,
+    25915,
+    2238
+  ]
+}

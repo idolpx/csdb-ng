@@ -1,0 +1,410 @@
+{
+  "ID": 124,
+  "Handle": "Lubber",
+  "CurrentlyUsedHandle": true,
+  "FreelanceFunctions": "Coder",
+  "MemberOf": [
+    {
+      "Status": "ex",
+      "GroupID": 686
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Swapper"
+      ],
+      "JoinYear": 1990,
+      "LeaveMonth": 2,
+      "LeaveYear": 1992,
+      "Status": "ex",
+      "GroupID": 5
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Graphician"
+      ],
+      "JoinMonth": 9,
+      "JoinYear": 1989,
+      "LeaveMonth": 2,
+      "LeaveYear": 1990,
+      "Status": "ex",
+      "GroupID": 620
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": 9,
+      "JoinYear": 1989,
+      "LeaveMonth": 2,
+      "LeaveYear": 1990,
+      "Status": "ex",
+      "GroupID": 452
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinDay": 14,
+      "JoinMonth": 4,
+      "JoinYear": 1999,
+      "Status": "active",
+      "GroupID": 5
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": 3,
+      "JoinYear": 1992,
+      "LeaveMonth": 4,
+      "LeaveYear": 1999,
+      "Status": "ex",
+      "GroupID": 362
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinYear": 1989,
+      "LeaveYear": 1989,
+      "Status": "ex",
+      "GroupID": 5938
+    }
+  ],
+  "Released": {
+    "Release": [
+      {
+        "ID": "81771",
+        "Name": "Videoboss V1.0 [german]",
+        "Type": "C64 Tool",
+        "ReleaseDay": "22",
+        "ReleaseMonth": "4",
+        "ReleaseYear": "1992",
+        "ScreenShot": "https://csdb.dk/gfx/releases/81000/81771.gif"
+      },
+      {
+        "ID": "151440",
+        "Name": "RasterBuster",
+        "AKA": "Online RasterBar Editor and Sourcecode Generator",
+        "Type": "Other Platform C64 Tool",
+        "ReleaseDay": "7",
+        "ReleaseMonth": "11",
+        "ReleaseYear": "2016",
+        "Rating": "9.75",
+        "Website": "http://rasterbuster.lubber.de",
+        "ScreenShot": "https://csdb.dk/gfx/releases/151000/151440.png"
+      }
+    ]
+  },
+  "Credits": [
+    {
+      "CreditType": "Code",
+      "ReleaseID": 2
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 3594
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 3594
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 28
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 28
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 28
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 28
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 707
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 709
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 711
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 2619
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 2623
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 48548
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 48548
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 7218
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 7449
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 6818
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6818
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 871
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 141021
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 141021
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 34179
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 18370
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 18370
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 710
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 710
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 710
+    },
+    {
+      "CreditType": "Interviewed",
+      "ReleaseID": 54175
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 708
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 708
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 708
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 2621
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 2621
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81746
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81747
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81748
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81749
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81761
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 81761
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81765
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 81765
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81766
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 81766
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81767
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81768
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 81768
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 5912
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81770
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 81771
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 81771
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Loader",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 877
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 877
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 128320
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 136015
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 130930
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 151440
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 101101
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 101101
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 177821
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 3480
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3480
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 3480
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 3480
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 188566
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 188566
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 187085
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 187085
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 199238
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 203390
+    }
+  ],
+  "FoundedGroupIDs": [
+    5
+  ],
+  "AttendedEventIDs": [
+    63,
+    104,
+    28,
+    8,
+    2621,
+    2762,
+    2908
+  ],
+  "ScenerIDs": [
+    113
+  ]
+}

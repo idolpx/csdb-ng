@@ -1,0 +1,30 @@
+{
+  "ID": 601,
+  "Country": "Sweden",
+  "Trivia": "Left &lt;group id=132&gt; in April 1990 to form Circle System together with &lt;scener id=3135&gt; (see &lt;release id=29979&gt;).\n\nLeft &lt;group id=663&gt; in March 1991 to join &lt;group id=5&gt; (see &lt;release id=8601&gt;).",
+  "Handles": [
+    {
+      "Handle": [
+        {
+          "ID": "617",
+          "Handle": "Jadawin",
+          "CurrentlyUsedHandle": "true",
+          "Scener": {
+            "ID": "601"
+          },
+          "FreelanceFunctions": {
+            "Function": [
+              "Coder",
+              "Cracker",
+              "Musician",
+              "Swapper"
+            ]
+          }
+        },
+        {
+          "ID": "16708"
+        }
+      ]
+    }
+  ]
+}

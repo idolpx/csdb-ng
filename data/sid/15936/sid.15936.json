@@ -1,0 +1,18 @@
+{
+  "ID": 15936,
+  "HVSCPath": "/MUSICIANS/J/Jadawin/Meant_No_Harm.sid",
+  "Name": "Meant No Harm",
+  "Author": "Kalle Norrman (Jadawin)",
+  "Released": "1998 Padua",
+  "LoadAddr": 4096,
+  "InitAddr": 4096,
+  "PlayAddr": 4099,
+  "NOSongs": 1,
+  "DefaultSong": 1,
+  "SIDModel": "Unknown",
+  "ClockSpeed": "PAL",
+  "DataSize": 4832,
+  "ReleaseIDs": [
+    1
+  ]
+}

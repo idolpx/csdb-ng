@@ -1,0 +1,427 @@
+{
+  "ID": 1185,
+  "Handle": "Alias Medron",
+  "CurrentlyUsedHandle": true,
+  "FreelanceFunctions": [
+    "Cover Designer",
+    "Graphician"
+  ],
+  "MemberOf": [
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "GroupID": 1060
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Cover Designer"
+      ],
+      "JoinDay": 5,
+      "JoinMonth": 5,
+      "JoinYear": 2016,
+      "Status": "inactive",
+      "GroupID": 435
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "active",
+      "GroupID": 5
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Cover Designer"
+      ],
+      "JoinYear": 1995,
+      "Status": "ex",
+      "GroupID": 250
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "LeaveYear": 1995,
+      "Status": "ex",
+      "GroupID": 596
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinDay": 2,
+      "JoinMonth": 2,
+      "JoinYear": 2011,
+      "Status": "active",
+      "GroupID": 1157
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "LeaveDay": 12,
+      "LeaveMonth": 12,
+      "LeaveYear": 2005,
+      "Status": "ex",
+      "GroupID": 201
+    }
+  ],
+  "BBSUser": {
+    "BBS": {
+      "ID": "38",
+      "Name": "Antidote",
+      "Trivia": "NOTICE: Due to botnets hammering port 23, Antidote is now reached on port 64128 instead! Update your phonebooks!\n\n\"Antidote\" was in a way launched by Taper to take over after \"The Highway\", since Joyride's HD broke down and all was lost.\n\nCo-Sysop's Taper and Jucke had in practice been managing \"The Highway\" together during the last period of the boards life, as Joyride had lost interest. Since there was no way the 042 area could be without a BBS, something had to be done!\n\nHowever, the birth of the BBS had occured even before this, with only a few selected testcallers and not open 24/7.\n\nShortly after \"The Highway\" went down, \"Antidote\" went public. Jucke, all-time Co-Sysop, was the one who came up with the name for the BBS. \n\nDuring these times, the BBS ran as HQ for TRIAD, Alpha Flight 1970, Oneway and Wrath Design.\n\nDates are a bit fuzzy after all this time, but Antidote suffered from HD corruption sometime late 1996/early 1997 and the BBS had to be restored from not-so good backup's. A lot of posts and some graphics were lost in the process.\n\nSometime after this, the BBS was relocated to Ronneby, when the Sysop move there. In 1999 the HD crashed again. Almost all data could be rescued this time though. The plan was to install a new HD and re-open the BBS once again, but the BBS scene had been dead for quite a while and callers were really drying up, so it never happened. Also the Sysop once again moved to the 042 area, and the BBS gear was boxed away.\n\nIn late 2003, the BBS was re-opened on telnet with a full backup installed, as the first scene BBS running on real hardware available over the net. Now running under the flags of TRIAD and Onslaught and still going strong. Frantic joined as co-sysop in 2012. \n\nIn late 2016, port was changed from 23 to 64128 due to excessive hammering by botnets.\n\nActually, \"Antidote\" is now situated just a few hundred meters away from where Joyride hosted his \"The Highway\". The circle is complete...\n\nCurrent Hardware:\nCommodore 128 (in c64 mode)\nCMD HD with a 1GB Compact Flash Card (Old SCSI HD replaced 081019)\nJiffy Dos\nSwiftlink\n\nAlso see http://www.triad.se/antidote",
+      "OnlinePeriod": [
+        {
+          "StartYear": "1994",
+          "EndDay": "5",
+          "EndMonth": "6",
+          "EndYear": "1999"
+        },
+        {
+          "StartDay": "3",
+          "StartMonth": "10",
+          "StartYear": "2003"
+        }
+      ],
+      "Phone": "+46-42-76416",
+      "Country": "Sweden"
+    }
+  },
+  "Released": {
+    "Release": [
+      {
+        "ID": "71612",
+        "Name": "Saboteur!",
+        "Type": "C64 Graphics",
+        "GfxType": "MultiColor",
+        "ReleaseDay": "27",
+        "ReleaseMonth": "9",
+        "ReleaseYear": "2008",
+        "Rating": "7.25",
+        "ScreenShot": "https://csdb.dk/gfx/releases/71000/71612.png"
+      },
+      {
+        "ID": "101747",
+        "Name": "Ra-mbo First Flood part II",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "26",
+        "ReleaseMonth": "8",
+        "ReleaseYear": "2011",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "1844",
+            "Name": "Rambo Revisited - GFX Compo",
+            "EventType": "Standalone Compo",
+            "StartDay": "13",
+            "StartMonth": "8",
+            "StartYear": "2011",
+            "EndDay": "27",
+            "EndMonth": "8",
+            "EndYear": "2011",
+            "Country": "Viet Nam",
+            "Website": "http://www.c64.sk"
+          }
+        },
+        "ScreenShot": "https://csdb.dk/gfx/releases/101000/101747.png"
+      }
+    ]
+  },
+  "Credits": [
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 157
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 722
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 722
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 723
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 707
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 861
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3311
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4350
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5986
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6400
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 7064
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8205
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 8428
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8591
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 9549
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 9764
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 156909
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 11753
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 14909
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 16041
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 16041
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 16041
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 17509
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 20159
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 22730
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 156960
+    },
+    {
+      "CreditType": "Disk Cover",
+      "ReleaseID": 155521
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 157485
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 38998
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 44014
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 44014
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 45020
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 34635
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 61707
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 63835
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 63856
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 63881
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 63925
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 64072
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 64293
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 71572
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 71612
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 76703
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 85996
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 90539
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 98725
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 3983
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 111011
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 129650
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 136795
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 139670
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 139752
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 148243
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 151604
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 152086
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 152330
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 155521
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 158951
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 162503
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 162996
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 172255
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 175441
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 184957
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 190651
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188346
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 183437
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 200568
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 201627
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 203390
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 207900
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 214898
+    }
+  ],
+  "ScenerIDs": [
+    1173
+  ]
+}

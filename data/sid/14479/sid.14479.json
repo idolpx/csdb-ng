@@ -1,0 +1,19 @@
+{
+  "ID": 14479,
+  "HVSCPath": "/MUSICIANS/H/Harmony_Productions/Darkness.sid",
+  "Name": "Darkness",
+  "Author": "Ludovic Llorca (Harmony Prods)",
+  "Released": "1992 Padua",
+  "LoadAddr": 4096,
+  "InitAddr": 4168,
+  "PlayAddr": 4129,
+  "NOSongs": 1,
+  "DefaultSong": 1,
+  "SIDModel": "Unknown",
+  "ClockSpeed": "PAL",
+  "DataSize": 3844,
+  "ReleaseIDs": [
+    1,
+    216578
+  ]
+}

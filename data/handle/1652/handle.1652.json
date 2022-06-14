@@ -1,0 +1,754 @@
+{
+  "ID": 1652,
+  "Handle": "Harmony Productions",
+  "CurrentlyUsedHandle": true,
+  "FreelanceFunctions": [
+    "Musician",
+    "Swapper"
+  ],
+  "MemberOf": [
+    {
+      "Profession": [
+        "Musician",
+        "Swapper"
+      ],
+      "Status": "ex",
+      "GroupID": 663
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinDay": 1,
+      "JoinMonth": 1,
+      "JoinYear": 1991,
+      "Status": "ex",
+      "GroupID": 387
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "Status": "ex",
+      "GroupID": 715
+    },
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "JoinMonth": 8,
+      "JoinYear": 1990,
+      "LeaveYear": 1991,
+      "Status": "ex",
+      "GroupID": 142
+    }
+  ],
+  "Credits": [
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5864
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 751
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 759
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11589
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5923
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 559
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5915
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 105288
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2463
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2668
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 10848
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 71
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 17573
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 12859
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 21510
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 25629
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 26442
+    },
+    {
+      "CreditType": "Interviewed",
+      "ReleaseID": 5317
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5317
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 34450
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 208287
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 94231
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 40791
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5879
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5706
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 44071
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5910
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 28418
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 50143
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 50143
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 50143
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 44784
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 78
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 37311
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 52416
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 52914
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 53757
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7109
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 56037
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 60317
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 61286
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 835
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11292
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 71240
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 14858
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 64452
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 76830
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5132
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 24496
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 868
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 541
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 569
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 83099
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 84923
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 85396
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 85742
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 85945
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 22887
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 63595
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 91193
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 91192
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 92089
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 48380
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 67902
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 51953
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 50803
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2499
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 96031
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 95875
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 97015
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 97015
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 97015
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 12651
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 4147
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 99909
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 99910
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 33779
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 53068
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 99049
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7430
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 64561
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 101319
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6755
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 10460
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 59349
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 102181
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6123
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 26968
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7521
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 103832
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 9334
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8108
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 104740
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 105392
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 60787
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 67878
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 9456
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 108421
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8002
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 44194
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 13476
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 109676
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 109687
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 110209
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 111898
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 112646
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 114095
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7428
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 76650
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 75238
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 96856
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11658
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 123252
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 125529
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 36948
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 85626
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 110502
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 34441
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 34451
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 128842
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 131533
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 82577
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 133932
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 131540
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 134053
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 25649
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 135816
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11923
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8431
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 136928
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 199036
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 139228
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 60668
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 145663
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 150631
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 151738
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 154636
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 158532
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 45342
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 107313
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 76680
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 160682
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 161163
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 167962
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 168343
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 53021
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 170075
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 170395
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 173357
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 173360
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 178195
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 79682
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 12705
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 180716
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 20709
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 182234
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 188656
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188656
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 188656
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 188630
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 189272
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 192812
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 195898
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 127921
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 205120
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 208150
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 208862
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 211725
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 215504
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 215505
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 215506
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 215507
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 216134
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 216578
+    }
+  ],
+  "AttendedEventIDs": [
+    735
+  ],
+  "ScenerIDs": [
+    1640
+  ]
+}

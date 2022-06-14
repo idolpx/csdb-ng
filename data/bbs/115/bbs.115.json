@@ -1,0 +1,27 @@
+{
+  "ID": 115,
+  "Name": "5150",
+  "Trivia": "later called http://noname.c64.org/csdb/bbs/?id=451",
+  "Phone": "404-922-6798\n404-461-8006\n404-473-1283",
+  "State": "Georgia",
+  "Country": "United States",
+  "Sysop": [
+    {
+      "Type": "Main",
+      "HandleID": 13612
+    }
+  ],
+  "GroupIDs": [
+    242,
+    2910
+  ],
+  "UserHandleIDs": [
+    10280,
+    16442,
+    5434,
+    9483,
+    35139,
+    2238,
+    25915
+  ]
+}

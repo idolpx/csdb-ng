@@ -1,0 +1,25 @@
+{
+  "ID": 29569,
+  "HVSCPath": "/MUSICIANS/T/Tracker/Maruder.sid",
+  "Name": "Maruder",
+  "Author": "Wojciech Wojtkiewicz (Tracker)",
+  "Released": "1991 Padua",
+  "LoadAddr": 4096,
+  "InitAddr": 4096,
+  "PlayAddr": 4099,
+  "NOSongs": 1,
+  "DefaultSong": 1,
+  "SIDModel": "6581",
+  "ClockSpeed": "PAL",
+  "DataSize": 2813,
+  "ReleaseIDs": [
+    1,
+    23649,
+    93208,
+    67901,
+    7430,
+    48287,
+    82618,
+    15273
+  ]
+}

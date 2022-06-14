@@ -1,0 +1,311 @@
+{
+  "ID": 617,
+  "Handle": "Jadawin",
+  "CurrentlyUsedHandle": true,
+  "FreelanceFunctions": [
+    "Coder",
+    "Cracker",
+    "Musician",
+    "Swapper"
+  ],
+  "MemberOf": [
+    {
+      "Profession": [
+        "Coder",
+        "Musician",
+        "Swapper"
+      ],
+      "JoinDay": 15,
+      "JoinMonth": 4,
+      "JoinYear": 1990,
+      "LeaveMonth": 3,
+      "LeaveYear": 1991,
+      "Status": "ex",
+      "GroupID": 663
+    },
+    {
+      "Profession": [
+        "Organizer",
+        "Coder",
+        "Swapper"
+      ],
+      "Status": "ex",
+      "GroupID": 9885
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinMonth": 4,
+      "JoinYear": 1990,
+      "LeaveDay": 15,
+      "LeaveMonth": 4,
+      "LeaveYear": 1990,
+      "Status": "ex",
+      "GroupID": 4134
+    },
+    {
+      "Profession": [
+        "Coder"
+      ],
+      "JoinYear": 1990,
+      "LeaveMonth": 4,
+      "LeaveYear": 1990,
+      "Status": "ex",
+      "GroupID": 132
+    },
+    {
+      "Profession": [
+        "Coder",
+        "Musician"
+      ],
+      "JoinMonth": 3,
+      "JoinYear": 1991,
+      "Status": "inactive",
+      "GroupID": 5
+    }
+  ],
+  "Released": {
+    "Release": {
+      "ID": "166135",
+      "Name": "Summer",
+      "Type": "C64 One-File Demo",
+      "ReleaseDay": "7",
+      "ReleaseMonth": "7",
+      "ReleaseYear": "2018",
+      "ReleasedAt": {
+        "Event": {
+          "ID": "2720",
+          "Name": "My Summer Party",
+          "EventType": "Demo Party",
+          "StartDay": "5",
+          "StartMonth": "7",
+          "StartYear": "2018",
+          "EndDay": "8",
+          "EndMonth": "7",
+          "EndYear": "2018",
+          "Address": "Korsukyl\u00c3\u00a4",
+          "City": "J\u00c3\u00a4mij\u00c3\u00a4rvi",
+          "Country": "Finland",
+          "Website": "https://mysummerparty.org/"
+        }
+      },
+      "Achievement": {
+        "Compo": "Mixed Demo",
+        "Place": "5"
+      },
+      "ScreenShot": "https://csdb.dk/gfx/releases/166000/166135.png"
+    }
+  },
+  "Credits": [
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3594
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 825
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 829
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 849
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 868
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 870
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 875
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3989
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6994
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 7615
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8308
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8311
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5368
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 20709
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 10848
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 22327
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 22327
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 7607
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 42
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 877
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 52045
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 907
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 12593
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 712
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 712
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 36220
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 35989
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 17590
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3380
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 814
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 4673
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 95874
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 96326
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 76583
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 10068
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 20215
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 47914
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 44543
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 108934
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 110159
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 166135
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 167703
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 90747
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 172660
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 172660
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 198378
+    }
+  ],
+  "FoundedGroupIDs": [
+    9885,
+    4134
+  ],
+  "AttendedEventIDs": [
+    63,
+    36,
+    105,
+    744
+  ],
+  "ScenerIDs": [
+    601
+  ]
+}

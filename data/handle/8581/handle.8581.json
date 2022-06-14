@@ -1,0 +1,758 @@
+{
+  "ID": 8581,
+  "Handle": "Vip",
+  "CurrentlyUsedHandle": true,
+  "HandleStory": "At school, kids called me Vip instead of Vincent, and it stuck, I guess.",
+  "MemberOf": [
+    {
+      "Profession": [
+        "Musician"
+      ],
+      "LeaveDay": 31,
+      "LeaveMonth": 5,
+      "LeaveYear": 2003,
+      "Status": "ex",
+      "GroupID": 707
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician",
+        "Musician",
+        "Author"
+      ],
+      "JoinYear": 1995,
+      "LeaveDay": 8,
+      "LeaveMonth": 4,
+      "LeaveYear": 2004,
+      "Status": "ex",
+      "GroupID": 154
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Musician"
+      ],
+      "JoinDay": 1,
+      "JoinMonth": 6,
+      "JoinYear": 2003,
+      "LeaveDay": 8,
+      "LeaveMonth": 4,
+      "LeaveYear": 2004,
+      "Status": "ex",
+      "GroupID": 1960
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Musician",
+        "Diskmag Editor"
+      ],
+      "LeaveDay": 8,
+      "LeaveMonth": 4,
+      "LeaveYear": 2004,
+      "Status": "ex",
+      "GroupID": 277
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Musician"
+      ],
+      "LeaveDay": 8,
+      "LeaveMonth": 4,
+      "LeaveYear": 2004,
+      "Status": "ex",
+      "GroupID": 625
+    },
+    {
+      "Profession": [
+        "Diskmag Editor"
+      ],
+      "JoinMonth": 2,
+      "JoinYear": 1998,
+      "LeaveMonth": 5,
+      "LeaveYear": 1998,
+      "Status": "ex",
+      "GroupID": 1361
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Musician"
+      ],
+      "JoinMonth": 6,
+      "JoinYear": 1998,
+      "LeaveDay": 8,
+      "LeaveMonth": 4,
+      "LeaveYear": 2004,
+      "Status": "ex",
+      "GroupID": 5
+    }
+  ],
+  "Released": {
+    "Release": {
+      "ID": "94806",
+      "Name": "Galaxis 9399 [seuck]",
+      "Type": "C64 Game",
+      "ReleaseYear": "2003",
+      "ScreenShot": "https://csdb.dk/gfx/releases/94000/94806.png"
+    }
+  },
+  "Credits": [
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5337
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6765
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6765
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 14299
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5336
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5336
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5388
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2673
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2673
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3052
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3052
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3014
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3152
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5168
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7185
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6596
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8428
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11687
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8447
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 4553
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11057
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 114
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2374
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3109
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2221
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 4361
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4361
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 4670
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6468
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2778
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2778
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 2778
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 2778
+    },
+    {
+      "CreditType": "Storyboard",
+      "ReleaseID": 2778
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3035
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3035
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6464
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 827
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7102
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 863
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11253
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2674
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2674
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6903
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5574
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5143
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4656
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 853
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 4353
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 9529
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5391
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11350
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5447
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5173
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5173
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5173
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5172
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5172
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5172
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5581
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5581
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6405
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7386
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 7386
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7449
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 7449
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 9027
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 9027
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 9741
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11331
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 11331
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8851
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 142
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11619
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6887
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 709
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 709
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 709
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 859
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7750
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 8591
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 9985
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 6263
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 6263
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6263
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 6263
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5086
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5086
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 5086
+    },
+    {
+      "CreditType": "Storyboard",
+      "ReleaseID": 5086
+    },
+    {
+      "CreditType": "Concept",
+      "ReleaseID": 5086
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8205
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 13710
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 17470
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5126
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 28704
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 36950
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 707
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 12841
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 73942
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5088
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 82376
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3380
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5155
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11399
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 15329
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 89507
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 89507
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 14610
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 94806
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 94806
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 94806
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 11367
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11367
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 11367
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 2866
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 4809
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4809
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5199
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5573
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5993
+    },
+    {
+      "CreditType": "Interviewed",
+      "ReleaseID": 8555
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 102116
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5200
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3983
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 3983
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7211
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 7211
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 7436
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 103457
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5201
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 103531
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 54821
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11753
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 113892
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 11412
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 114344
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 114344
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 114344
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 114344
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 117224
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 121733
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 35015
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 3055
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 5793
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 48348
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 151895
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 152331
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 168028
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 168028
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 168028
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 168028
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 168397
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 168397
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 175538
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 707
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 208776
+    },
+    {
+      "CreditType": "Music",
+      "ReleaseID": 214327
+    }
+  ],
+  "AttendedEventIDs": [
+    210,
+    158,
+    524,
+    31
+  ],
+  "ScenerIDs": [
+    1063
+  ]
+}

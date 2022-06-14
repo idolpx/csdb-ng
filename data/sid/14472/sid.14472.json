@@ -1,0 +1,18 @@
+{
+  "ID": 14472,
+  "HVSCPath": "/MUSICIANS/H/Harmony_Productions/And_Light.sid",
+  "Name": "And Light",
+  "Author": "Ludovic Llorca (Harmony Prods)",
+  "Released": "1992 Padua",
+  "LoadAddr": 4096,
+  "InitAddr": 4168,
+  "PlayAddr": 4129,
+  "NOSongs": 1,
+  "DefaultSong": 1,
+  "SIDModel": "Unknown",
+  "ClockSpeed": "PAL",
+  "DataSize": 3717,
+  "ReleaseIDs": [
+    1
+  ]
+}

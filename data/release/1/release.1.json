@@ -1,0 +1,132 @@
+{
+  "ID": 1,
+  "Name": "Embryo",
+  "Type": "C64 Demo",
+  "ReleasedAt": 8,
+  "Achievement": {
+    "Compo": "C64 Demo",
+    "Place": "2"
+  },
+  "Rating": 7.25,
+  "ScreenShot": "https://csdb.dk/gfx/releases/1/1.gif",
+  "ReleasedBy": {
+    "GroupIDs": [
+      5
+    ]
+  },
+  "Credits": [
+    {
+      "CreditType": "Graphics",
+      "HandleID": 1617
+    },
+    {
+      "CreditType": "Music",
+      "HandleID": 617
+    },
+    {
+      "CreditType": "Graphics",
+      "HandleID": 1185
+    },
+    {
+      "CreditType": "Music",
+      "HandleID": 1651
+    },
+    {
+      "CreditType": "Music",
+      "HandleID": 1652
+    },
+    {
+      "CreditType": "Graphics",
+      "HandleID": 8581
+    },
+    {
+      "CreditType": "Graphics",
+      "HandleID": 8137
+    },
+    {
+      "CreditType": "Graphics",
+      "HandleID": 5262
+    },
+    {
+      "CreditType": "Music",
+      "HandleID": 1687
+    },
+    {
+      "CreditType": "Code",
+      "HandleID": 124
+    },
+    {
+      "CreditType": "Charset",
+      "HandleID": 124
+    },
+    {
+      "CreditType": "Loader",
+      "HandleID": 124
+    }
+  ],
+  "DownloadLinks": [
+    {
+      "Link": "ftp://c64.rulez.org/pub/c64/Demos/p/Padua/Embyro.zip",
+      "CounterLink": "https://csdb.dk/release/download.php?id=4434",
+      "Downloads": "463",
+      "Status": "Ok"
+    },
+    {
+      "Link": "ftp://ftp.padua.org/pub/c64/Demos/pal/padua/embryo.zip",
+      "CounterLink": "https://csdb.dk/release/download.php?id=8",
+      "Downloads": "2859",
+      "Status": "Ok"
+    },
+    {
+      "Link": "http://csdb.dk/getinternalfile.php/58016/padua_embryo.zip",
+      "CounterLink": "https://csdb.dk/release/download.php?id=80138",
+      "Downloads": "444",
+      "Status": "Ok"
+    },
+    {
+      "Link": "http://www.demodungeon.com/zip/padua_embryo.zip",
+      "CounterLink": "https://csdb.dk/release/download.php?id=17406",
+      "Downloads": "454",
+      "Status": "Ok"
+    }
+  ],
+  "Comments": [
+    {
+      "UserComment": [
+        {
+          "Date": 1171692000,
+          "Text": "Ok, replaced the crappy screenshot by an animated GIF with 14 out of 38 frames (no room for more).",
+          "ScenerID": 526
+        },
+        {
+          "Date": 1163138400,
+          "Text": "huh, someone crying for LESS effects ? :D faster space would save it alone :)",
+          "ScenerID": 420
+        },
+        {
+          "Date": 1144126800,
+          "Text": "nice effects, but the demo is tooooo looooong and tooooo sloooooow... less effects and more speed would have made this a very good!",
+          "ScenerID": 300
+        }
+      ]
+    }
+  ],
+  "ReleaseDate": [
+    {
+      "Day": 15,
+      "Month": 4,
+      "Year": 2001
+    }
+  ],
+  "SIDIDs": [
+    14479,
+    27509,
+    14485,
+    15932,
+    14500,
+    14472,
+    14499,
+    29569,
+    15936
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ID": 1063,
+  "Country": "Belgium",
+  "Handles": [
+    {
+      "Handle": [
+        {
+          "ID": "8581"
+        },
+        {
+          "ID": "1079",
+          "Handle": "_V_",
+          "AKA": "V",
+          "CurrentlyUsedHandle": "true",
+          "HandleStory": "Clarity and simplicity.",
+          "Scener": {
+            "ID": "1063"
+          },
+          "FreelanceFunctions": {
+            "Function": [
+              "Author",
+              "Diskmag Editor",
+              "Fullscreen Graphician",
+              "Graphician",
+              "Logo Graphician",
+              "Musician"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

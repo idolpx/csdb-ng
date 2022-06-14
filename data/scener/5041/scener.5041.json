@@ -1,0 +1,28 @@
+{
+  "ID": 5041,
+  "Country": "Germany",
+  "Handles": [
+    {
+      "Handle": [
+        {
+          "ID": "5442"
+        },
+        {
+          "ID": "5262",
+          "Handle": "Hi-Lite",
+          "CurrentlyUsedHandle": "true",
+          "Scener": {
+            "ID": "5041"
+          },
+          "FreelanceFunctions": {
+            "Function": [
+              "Coder",
+              "Graphician",
+              "Swapper"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

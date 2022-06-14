@@ -1,0 +1,2159 @@
+{
+  "ID": 8137,
+  "Handle": "Cupid",
+  "CurrentlyUsedHandle": true,
+  "FreelanceFunctions": [
+    "Fullscreen Graphician",
+    "Graphician",
+    "Logo Graphician"
+  ],
+  "MemberOf": [
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinMonth": 4,
+      "JoinYear": 1995,
+      "LeaveMonth": 1,
+      "LeaveYear": 1998,
+      "Status": "ex",
+      "GroupID": 524
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "JoinMonth": 11,
+      "JoinYear": 1996,
+      "Status": "active",
+      "GroupID": 5
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "GroupID": 485
+    },
+    {
+      "Profession": [
+        "Graphician",
+        "Fullscreen Graphician",
+        "Logo Graphician"
+      ],
+      "JoinMonth": 1,
+      "JoinYear": 1997,
+      "LeaveDay": 26,
+      "LeaveMonth": 2,
+      "LeaveYear": 2017,
+      "Status": "ex",
+      "GroupID": 114
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinMonth": 1,
+      "JoinYear": 1995,
+      "LeaveMonth": 4,
+      "LeaveYear": 1995,
+      "Status": "ex",
+      "GroupID": 812
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "GroupID": 148
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinDay": 26,
+      "JoinMonth": 2,
+      "JoinYear": 2017,
+      "Status": "active",
+      "GroupID": 9311
+    }
+  ],
+  "BBSUser": {
+    "BBS": [
+      {
+        "ID": "38",
+        "Name": "Antidote",
+        "Trivia": "NOTICE: Due to botnets hammering port 23, Antidote is now reached on port 64128 instead! Update your phonebooks!\n\n\"Antidote\" was in a way launched by Taper to take over after \"The Highway\", since Joyride's HD broke down and all was lost.\n\nCo-Sysop's Taper and Jucke had in practice been managing \"The Highway\" together during the last period of the boards life, as Joyride had lost interest. Since there was no way the 042 area could be without a BBS, something had to be done!\n\nHowever, the birth of the BBS had occured even before this, with only a few selected testcallers and not open 24/7.\n\nShortly after \"The Highway\" went down, \"Antidote\" went public. Jucke, all-time Co-Sysop, was the one who came up with the name for the BBS. \n\nDuring these times, the BBS ran as HQ for TRIAD, Alpha Flight 1970, Oneway and Wrath Design.\n\nDates are a bit fuzzy after all this time, but Antidote suffered from HD corruption sometime late 1996/early 1997 and the BBS had to be restored from not-so good backup's. A lot of posts and some graphics were lost in the process.\n\nSometime after this, the BBS was relocated to Ronneby, when the Sysop move there. In 1999 the HD crashed again. Almost all data could be rescued this time though. The plan was to install a new HD and re-open the BBS once again, but the BBS scene had been dead for quite a while and callers were really drying up, so it never happened. Also the Sysop once again moved to the 042 area, and the BBS gear was boxed away.\n\nIn late 2003, the BBS was re-opened on telnet with a full backup installed, as the first scene BBS running on real hardware available over the net. Now running under the flags of TRIAD and Onslaught and still going strong. Frantic joined as co-sysop in 2012. \n\nIn late 2016, port was changed from 23 to 64128 due to excessive hammering by botnets.\n\nActually, \"Antidote\" is now situated just a few hundred meters away from where Joyride hosted his \"The Highway\". The circle is complete...\n\nCurrent Hardware:\nCommodore 128 (in c64 mode)\nCMD HD with a 1GB Compact Flash Card (Old SCSI HD replaced 081019)\nJiffy Dos\nSwiftlink\n\nAlso see http://www.triad.se/antidote",
+        "OnlinePeriod": [
+          {
+            "StartYear": "1994",
+            "EndDay": "5",
+            "EndMonth": "6",
+            "EndYear": "1999"
+          },
+          {
+            "StartDay": "3",
+            "StartMonth": "10",
+            "StartYear": "2003"
+          }
+        ],
+        "Phone": "+46-42-76416",
+        "Country": "Sweden"
+      },
+      {
+        "ID": "323",
+        "Name": "Spankerz Heaven",
+        "Short": "SH",
+        "Trivia": "Spankerz Heaven was the second web bbs for the c64 scene. It opened somewhere around 1997 and was very active for quite a few years.\n\nSH went offline, but after X04, Burglar rewrote the whole engine and went back online at the end of november 2004.\n\nIt is still up and running today.\n\nSH is the only location to feature an online resource for Mason's c64heaven archive.\n\nhttps://sh.scs-trc.net/",
+        "OnlinePeriod": [
+          {
+            "StartYear": "1997",
+            "EndYear": "2001"
+          },
+          {
+            "StartDay": "11",
+            "StartMonth": "11",
+            "StartYear": "2004"
+          }
+        ],
+        "Country": "Netherlands"
+      }
+    ]
+  },
+  "Released": {
+    "Release": [
+      {
+        "ID": "193271",
+        "Name": "Walt Bonzai",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "8",
+        "ReleaseMonth": "7",
+        "ReleaseYear": "2020",
+        "Rating": "8.5",
+        "ScreenShot": "https://csdb.dk/gfx/releases/193000/193271.png"
+      },
+      {
+        "ID": "191906",
+        "Name": "Wrong Side of History",
+        "Type": "C64 Graphics",
+        "GfxType": "PETSCII",
+        "ReleaseDay": "4",
+        "ReleaseMonth": "6",
+        "ReleaseYear": "2020",
+        "Rating": "6.66",
+        "ScreenShot": "https://csdb.dk/gfx/releases/191000/191906.png"
+      },
+      {
+        "ID": "129415",
+        "Name": "Handlestory",
+        "Type": "C64 Misc.",
+        "ScreenShot": "https://csdb.dk/gfx/releases/129000/129415.png"
+      },
+      {
+        "ID": "134873",
+        "Name": "2x2 Hires",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "25",
+        "ReleaseMonth": "11",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/134000/134873.png"
+      },
+      {
+        "ID": "134900",
+        "Name": "1x2 Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "26",
+        "ReleaseMonth": "11",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/134000/134900.png"
+      },
+      {
+        "ID": "135040",
+        "Name": "Tilt",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "1",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135040.png"
+      },
+      {
+        "ID": "135086",
+        "Name": "Tiny Chromey",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "24",
+        "ReleaseMonth": "11",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135086.png"
+      },
+      {
+        "ID": "135087",
+        "Name": "Psycho Poetry",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "2",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135087.png"
+      },
+      {
+        "ID": "135088",
+        "Name": "Round 3x3",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "23",
+        "ReleaseMonth": "11",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135088.png"
+      },
+      {
+        "ID": "135253",
+        "Name": "Tilt V2",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "7",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135253.png"
+      },
+      {
+        "ID": "135271",
+        "Name": "Pseudo Techno",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "8",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135271.png"
+      },
+      {
+        "ID": "135284",
+        "Name": "Round 3x3 V2",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "8",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135284.png"
+      },
+      {
+        "ID": "135297",
+        "Name": "Psycho Poetry V2",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "10",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2014",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135297.png"
+      },
+      {
+        "ID": "135314",
+        "Name": "Macaroons",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "11",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2014",
+        "Rating": "8.69",
+        "ScreenShot": "https://csdb.dk/gfx/releases/135000/135314.png"
+      },
+      {
+        "ID": "188167",
+        "Name": "F4CG PETSCII Logo",
+        "Type": "C64 Graphics",
+        "GfxType": "PETSCII",
+        "ReleaseDay": "25",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188167.png"
+      },
+      {
+        "ID": "188168",
+        "Name": "F4CG Coloured PETSCII Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "24",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188168.png"
+      },
+      {
+        "ID": "188169",
+        "Name": "Small Round PETSCII Font",
+        "Type": "C64 Graphics",
+        "GfxType": "PETSCII",
+        "ReleaseDay": "25",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188169.png"
+      },
+      {
+        "ID": "188170",
+        "Name": "Firefox 2020 Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "22",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188170.png"
+      },
+      {
+        "ID": "188180",
+        "Name": "Huge PETSCII Font V2 (now with lowercase)",
+        "Type": "C64 Graphics",
+        "GfxType": "PETSCII",
+        "ReleaseDay": "27",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188180.gif"
+      },
+      {
+        "ID": "188187",
+        "Name": "Logo for Laxity",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "27",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188187.png"
+      },
+      {
+        "ID": "188259",
+        "Name": "Rock'n'Role 3 Colour Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "28",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "Rating": "9",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188259.png"
+      },
+      {
+        "ID": "188263",
+        "Name": "Kreator Logo (3 colour)",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "28",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188263.png"
+      },
+      {
+        "ID": "188264",
+        "Name": "CMS Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "28",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188264.png"
+      },
+      {
+        "ID": "188171",
+        "Name": "Edge Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "24",
+        "ReleaseMonth": "2",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188171.png"
+      },
+      {
+        "ID": "188404",
+        "Name": "Digital Talk 3 Colour",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "3",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2020",
+        "Rating": "8.5",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188404.png"
+      },
+      {
+        "ID": "188430",
+        "Name": "PETSCII Fold Font",
+        "Type": "C64 Graphics",
+        "GfxType": "PETSCII",
+        "ReleaseDay": "4",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2020",
+        "Rating": "9.33",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188430.gif"
+      },
+      {
+        "ID": "188952",
+        "Name": "C64 Colour Changer",
+        "Type": "Other Platform C64 Tool",
+        "ReleaseDay": "20",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2020",
+        "Website": "https://codepo8.github.io/c64-colour-changer/",
+        "ScreenShot": "https://csdb.dk/gfx/releases/188000/188952.png"
+      },
+      {
+        "ID": "189746",
+        "Name": "TileEdit",
+        "Type": "Other Platform C64 Tool",
+        "ReleaseDay": "9",
+        "ReleaseMonth": "4",
+        "ReleaseYear": "2020",
+        "Website": "https://codepo8.github.io/TileEdit/",
+        "ScreenShot": "https://csdb.dk/gfx/releases/189000/189746.gif"
+      },
+      {
+        "ID": "190239",
+        "Name": "TinyFont - For Pixeling",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "24",
+        "ReleaseMonth": "4",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/190000/190239.png"
+      },
+      {
+        "ID": "191120",
+        "Name": "Round and Proud - Multicolour Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "14",
+        "ReleaseMonth": "5",
+        "ReleaseYear": "2020",
+        "Rating": "9.74",
+        "ScreenShot": "https://csdb.dk/gfx/releases/191000/191120.gif"
+      },
+      {
+        "ID": "191356",
+        "Name": "Lego My Logo Multicolour Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "20",
+        "ReleaseMonth": "5",
+        "ReleaseYear": "2020",
+        "Rating": "9.73",
+        "ScreenShot": "https://csdb.dk/gfx/releases/191000/191356.gif"
+      },
+      {
+        "ID": "191384",
+        "Name": "Rocks 3 Colour Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "20",
+        "ReleaseMonth": "5",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/191000/191384.gif"
+      },
+      {
+        "ID": "191669",
+        "Name": "Round and Long (3 Colour Font)",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "29",
+        "ReleaseMonth": "5",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/191000/191669.png"
+      },
+      {
+        "ID": "191916",
+        "Name": "Think Out of the Box PETSCII Font",
+        "Type": "BBS Graphics",
+        "ReleaseDay": "4",
+        "ReleaseMonth": "6",
+        "ReleaseYear": "2020",
+        "Rating": "9.69",
+        "ScreenShot": "https://csdb.dk/gfx/releases/191000/191916.gif"
+      },
+      {
+        "ID": "192064",
+        "Name": "A Shoulder to Crayon",
+        "Type": "C64 Graphics",
+        "GfxType": "PETSCII",
+        "ReleaseDay": "8",
+        "ReleaseMonth": "6",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/192000/192064.png"
+      },
+      {
+        "ID": "192424",
+        "Name": "REDRUM Hires",
+        "Type": "C64 Graphics",
+        "GfxType": "HiRes",
+        "ReleaseDay": "15",
+        "ReleaseMonth": "6",
+        "ReleaseYear": "2020",
+        "Rating": "8.5",
+        "ScreenShot": "https://csdb.dk/gfx/releases/192000/192424.png"
+      },
+      {
+        "ID": "192755",
+        "Name": "6 Days Gubbdata Countdown",
+        "Type": "BBS Graphics",
+        "ReleaseDay": "21",
+        "ReleaseMonth": "6",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/192000/192755.png"
+      },
+      {
+        "ID": "193688",
+        "Name": "DLG Hires Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "22",
+        "ReleaseMonth": "7",
+        "ReleaseYear": "2020",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "2978",
+            "Name": "Demoscene Logo Gallery Competition",
+            "EventType": "Standalone Compo",
+            "Tagline": "Facebook Group Competition for cover image",
+            "StartDay": "11",
+            "StartMonth": "7",
+            "StartYear": "2020",
+            "EndDay": "20",
+            "EndMonth": "7",
+            "EndYear": "2020",
+            "Website": "https://www.facebook.com/groups/demoscenelogogallery/permalink/944347166038842"
+          }
+        },
+        "Achievement": {
+          "Place": "2"
+        },
+        "Rating": "9.25",
+        "ScreenShot": "https://csdb.dk/gfx/releases/193000/193688.png"
+      },
+      {
+        "ID": "193770",
+        "Name": "DLG PETSCII Wings Logo",
+        "Type": "BBS Graphics",
+        "ReleaseDay": "23",
+        "ReleaseMonth": "7",
+        "ReleaseYear": "2020",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "2978"
+          }
+        },
+        "Achievement": {
+          "Place": "8"
+        },
+        "Rating": "9",
+        "ScreenShot": "https://csdb.dk/gfx/releases/193000/193770.png"
+      },
+      {
+        "ID": "193775",
+        "Name": "DLG Stairs PETSCII Logo",
+        "Type": "BBS Graphics",
+        "ReleaseDay": "20",
+        "ReleaseMonth": "7",
+        "ReleaseYear": "2020",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "2978"
+          }
+        },
+        "Achievement": {
+          "Place": "16"
+        },
+        "ScreenShot": "https://csdb.dk/gfx/releases/193000/193775.png"
+      },
+      {
+        "ID": "193795",
+        "Name": "ACAB Logo",
+        "Type": "BBS Graphics",
+        "ReleaseDay": "24",
+        "ReleaseMonth": "7",
+        "ReleaseYear": "2020",
+        "Rating": "8.43",
+        "ScreenShot": "https://csdb.dk/gfx/releases/193000/193795.png"
+      },
+      {
+        "ID": "193804",
+        "Name": "ACAB Logo 2",
+        "Type": "BBS Graphics",
+        "ReleaseDay": "24",
+        "ReleaseMonth": "7",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/193000/193804.png"
+      },
+      {
+        "ID": "194701",
+        "Name": "10 Char Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "16",
+        "ReleaseMonth": "8",
+        "ReleaseYear": "2020",
+        "Rating": "9.56",
+        "ScreenShot": "https://csdb.dk/gfx/releases/194000/194701.gif"
+      },
+      {
+        "ID": "194768",
+        "Name": "16 Char Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "17",
+        "ReleaseMonth": "8",
+        "ReleaseYear": "2020",
+        "ScreenShot": "https://csdb.dk/gfx/releases/194000/194768.gif"
+      },
+      {
+        "ID": "196608",
+        "Name": "CSDb Preview Bookmarklet",
+        "Type": "Other Platform C64 Tool",
+        "ReleaseDay": "12",
+        "ReleaseMonth": "10",
+        "ReleaseYear": "2020",
+        "Rating": "10",
+        "Website": "https://codepo8.github.io/csdb-preview-bookmarklet/",
+        "ScreenShot": "https://csdb.dk/gfx/releases/196000/196608.gif"
+      },
+      {
+        "ID": "201238",
+        "Name": "Making Waves (Basic Oneliner)",
+        "Type": "C64 Basic Demo",
+        "ReleaseDay": "11",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2021",
+        "ScreenShot": "https://csdb.dk/gfx/releases/201000/201238.gif"
+      },
+      {
+        "ID": "203195",
+        "Name": "Transmission 64 Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "20",
+        "ReleaseMonth": "4",
+        "ReleaseYear": "2021",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "3011",
+            "Name": "Transmission64",
+            "EventType": "C64 Only Party",
+            "Tagline": "the online c64 demo party",
+            "StartDay": "24",
+            "StartMonth": "4",
+            "StartYear": "2021",
+            "EndDay": "24",
+            "EndMonth": "4",
+            "EndYear": "2021",
+            "Address": "online",
+            "Website": "http://www.transmission64.com/"
+          }
+        },
+        "Rating": "6.67",
+        "ScreenShot": "https://csdb.dk/gfx/releases/203000/203195.png"
+      },
+      {
+        "ID": "204195",
+        "Name": "All Squares Are the Same Grey",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "14",
+        "ReleaseMonth": "5",
+        "ReleaseYear": "2021",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "3052",
+            "Name": "CSDB C64 Fun Compo 2021",
+            "EventType": "Standalone Compo",
+            "StartDay": "20",
+            "StartMonth": "4",
+            "StartYear": "2021",
+            "EndDay": "31",
+            "EndMonth": "5",
+            "EndYear": "2021"
+          }
+        },
+        "Rating": "8.88",
+        "ScreenShot": "https://csdb.dk/gfx/releases/204000/204195.png"
+      },
+      {
+        "ID": "204792",
+        "Name": "Blazon Prime",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "29",
+        "ReleaseMonth": "5",
+        "ReleaseYear": "2021",
+        "ScreenShot": "https://csdb.dk/gfx/releases/204000/204792.png"
+      },
+      {
+        "ID": "204793",
+        "Name": "Blazon Prime Hires",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "29",
+        "ReleaseMonth": "5",
+        "ReleaseYear": "2021",
+        "ScreenShot": "https://csdb.dk/gfx/releases/204000/204793.png"
+      },
+      {
+        "ID": "205780",
+        "Name": "Why So Serious? Hacker at Night 6 Pixel Fix",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "15",
+        "ReleaseMonth": "7",
+        "ReleaseYear": "2021",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "3084",
+            "Name": "The Glorious Hacker@Night Compo",
+            "EventType": "Standalone Compo",
+            "StartDay": "15",
+            "StartMonth": "7",
+            "StartYear": "2021",
+            "EndDay": "25",
+            "EndMonth": "7",
+            "EndYear": "2021"
+          }
+        },
+        "Achievement": {
+          "Compo": "Mixed",
+          "Place": "21"
+        },
+        "Rating": "7.08",
+        "ScreenShot": "https://csdb.dk/gfx/releases/205000/205780.png"
+      },
+      {
+        "ID": "208462",
+        "Name": "Emotional Breakdown Font from Pal Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "13",
+        "ReleaseMonth": "9",
+        "ReleaseYear": "2021",
+        "Website": "https://codepo8.github.io/logo-o-matic/?text=demoscene~logo%20gallery#goto-pal-eb",
+        "ScreenShot": "https://csdb.dk/gfx/releases/208000/208462.png"
+      },
+      {
+        "ID": "208483",
+        "Name": "6 Colour PAL Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "13",
+        "ReleaseMonth": "9",
+        "ReleaseYear": "2021",
+        "Website": "https://codepo8.github.io/logo-o-matic/?text=csdb#goto-palemo",
+        "ScreenShot": "https://csdb.dk/gfx/releases/208000/208483.png"
+      },
+      {
+        "ID": "208486",
+        "Name": "Compyx Beyond Reality Font from Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "13",
+        "ReleaseMonth": "9",
+        "ReleaseYear": "2021",
+        "Rating": "9",
+        "Website": "https://codepo8.github.io/logo-o-matic/?text=csdb#goto-cpx-qpd-beyond",
+        "ScreenShot": "https://csdb.dk/gfx/releases/208000/208486.gif"
+      },
+      {
+        "ID": "208520",
+        "Name": "Powerengine Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "14",
+        "ReleaseMonth": "9",
+        "ReleaseYear": "2021",
+        "Website": "https://codepo8.github.io/logo-o-matic/?text=csdb#goto-powerengine",
+        "ScreenShot": "https://csdb.dk/gfx/releases/208000/208520.gif"
+      },
+      {
+        "ID": "213751",
+        "Name": "!dead 2x2 Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "25",
+        "ReleaseMonth": "1",
+        "ReleaseYear": "2022",
+        "Rating": "9.17",
+        "ScreenShot": "https://csdb.dk/gfx/releases/213000/213751.png"
+      },
+      {
+        "ID": "210720",
+        "Name": "4x6 C1X1 font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "21",
+        "ReleaseMonth": "10",
+        "ReleaseYear": "2021",
+        "Rating": "8.35",
+        "ScreenShot": "https://csdb.dk/gfx/releases/210000/210720.png"
+      },
+      {
+        "ID": "215834",
+        "Name": "Slimfont 180 Chars",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "25",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2022",
+        "Rating": "9.25",
+        "ScreenShot": "https://csdb.dk/gfx/releases/215000/215834.png"
+      },
+      {
+        "ID": "215971",
+        "Name": "Sacred Font",
+        "AKA": "based on Sacred Intro 05",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "28",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2022",
+        "Rating": "9.73",
+        "ScreenShot": "https://csdb.dk/gfx/releases/215000/215971.gif"
+      },
+      {
+        "ID": "216022",
+        "Name": "Therapyfont",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "29",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2022",
+        "Rating": "9.31",
+        "ScreenShot": "https://csdb.dk/gfx/releases/216000/216022.png"
+      },
+      {
+        "ID": "216112",
+        "Name": "Silver Bullet Font",
+        "AKA": "(based on  1995 logo)",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "30",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2022",
+        "ScreenShot": "https://csdb.dk/gfx/releases/216000/216112.gif"
+      },
+      {
+        "ID": "216173",
+        "Name": "Fatumfont",
+        "AKA": "(based on a 1995 logo)",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "31",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2022",
+        "ScreenShot": "https://csdb.dk/gfx/releases/216000/216173.gif"
+      },
+      {
+        "ID": "216355",
+        "Name": "Fuck Covid (RIP TMR) Font",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "4",
+        "ReleaseMonth": "4",
+        "ReleaseYear": "2022",
+        "ScreenShot": "https://csdb.dk/gfx/releases/216000/216355.png"
+      },
+      {
+        "ID": "216393",
+        "Name": "CSDB Animation Creator",
+        "Type": "Other Platform C64 Tool",
+        "ReleaseDay": "5",
+        "ReleaseMonth": "4",
+        "ReleaseYear": "2022",
+        "Rating": "9.73",
+        "Website": "https://codepo8.github.io/CSDB-screen-generator/",
+        "ScreenShot": "https://csdb.dk/gfx/releases/216000/216393.gif"
+      },
+      {
+        "ID": "216912",
+        "Name": "Babygang Font (used in Anthology)",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "18",
+        "ReleaseMonth": "4",
+        "ReleaseYear": "2022",
+        "Rating": "9.5",
+        "ScreenShot": "https://csdb.dk/gfx/releases/216000/216912.gif"
+      }
+    ]
+  },
+  "Credits": [
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 48394
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 48394
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2163
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 15176
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 95446
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 11663
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 12774
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 12765
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3368
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3369
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4853
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 4853
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6037
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 7238
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6818
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6490
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6403
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 6403
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4352
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5703
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 709
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 611
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5553
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5554
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5555
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 5700
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5702
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5089
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5246
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 3370
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5245
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5244
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5243
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5243
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5197
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 852
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 707
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4423
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 593
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 593
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 15
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 858
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3594
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 3594
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 867
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 867
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 471
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 829
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3367
+    },
+    {
+      "CreditType": "Concept",
+      "ReleaseID": 3378
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 38
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 601
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 114
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 113
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 112
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 111
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 147
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 876
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4651
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5735
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5471
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5471
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4968
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4441
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 13148
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5892
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 15745
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 17429
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 17978
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 204
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 20159
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 23367
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 156960
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 23849
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 66
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 10043
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188170
+    },
+    {
+      "CreditType": "Bug-Fix",
+      "ReleaseID": 40420
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 40427
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 44939
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 44203
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 46691
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 46845
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 48397
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 156220
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 161
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 52220
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 597
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 597
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 597
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 597
+    },
+    {
+      "CreditType": "Concept",
+      "ReleaseID": 597
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 53298
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 54102
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 53815
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 58993
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 37836
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 3688
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 63835
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 5487
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 3752
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 71103
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5367
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5127
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 3249
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 48389
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4569
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 4569
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5354
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 78602
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2710
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3380
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 40424
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 9246
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 49446
+    },
+    {
+      "CreditType": "Trainer",
+      "ReleaseID": 49446
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5368
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 5368
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 156438
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 98189
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3383
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 99657
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 99657
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 99660
+    },
+    {
+      "CreditType": "Bug-Fix",
+      "ReleaseID": 37836
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 600
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 142266
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8205
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8308
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 12057
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 110744
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 98368
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 143844
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 117359
+    },
+    {
+      "CreditType": "Original Supply",
+      "ReleaseID": 122978
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 39894
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 129415
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 131131
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 131301
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 134063
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 134873
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 134900
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135040
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135086
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135087
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135088
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135253
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135271
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135284
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135297
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 135314
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 137491
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 157511
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 139991
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 148046
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 148172
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 148172
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 150555
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 151258
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 152093
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 152332
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 153518
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 153737
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 153778
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 825
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 158759
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 158951
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 163471
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 167480
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 167703
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 175549
+    },
+    {
+      "CreditType": "Interviewed",
+      "ReleaseID": 180335
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 185569
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 187977
+    },
+    {
+      "CreditType": "Directory Art",
+      "ReleaseID": 187977
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 188167
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188168
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188171
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 188173
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 188180
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188187
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188259
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188264
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188263
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 188169
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188404
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 188430
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 188664
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 188952
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 189746
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 189746
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 189746
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 189746
+    },
+    {
+      "CreditType": "Concept",
+      "ReleaseID": 189746
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 190013
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 190239
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 190335
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 190483
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 190483
+    },
+    {
+      "CreditType": "Concept",
+      "ReleaseID": 190483
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 191120
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 191356
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 191356
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 191384
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 191384
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 191396
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 191592
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 191669
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 191775
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 191906
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 191906
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 191916
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 191916
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 192064
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 192064
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 192424
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 192490
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 192504
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 192755
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 192943
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 193271
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 193271
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 193688
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 193688
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 193770
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 193775
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 193795
+    },
+    {
+      "CreditType": "BBS Graphics",
+      "ReleaseID": 193804
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 194383
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 194497
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 193820
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 194701
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 194701
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 194768
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 194768
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 194768
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 194768
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 195942
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 195961
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 195961
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 196608
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 196608
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 196720
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 197144
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 197144
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 197870
+    },
+    {
+      "CreditType": "Directory Art",
+      "ReleaseID": 197878
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 197878
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 197884
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 197895
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 197895
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 197938
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 829
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 198250
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 198592
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 198849
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 199238
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 199902
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 199902
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 200581
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 200581
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 201238
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 143862
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 203195
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 203372
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 203390
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 203390
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 203704
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 40423
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 203946
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 204195
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 204792
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 204792
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 204793
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 204793
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 204897
+    },
+    {
+      "CreditType": "Crack",
+      "ReleaseID": 205780
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 208462
+    },
+    {
+      "CreditType": "Ripping",
+      "ReleaseID": 208462
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 208483
+    },
+    {
+      "CreditType": "Ripping",
+      "ReleaseID": 208483
+    },
+    {
+      "CreditType": "Concept",
+      "ReleaseID": 208483
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 208486
+    },
+    {
+      "CreditType": "Ripping",
+      "ReleaseID": 208486
+    },
+    {
+      "CreditType": "Concept",
+      "ReleaseID": 208486
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 208520
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 208520
+    },
+    {
+      "CreditType": "Ripping",
+      "ReleaseID": 208520
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 209433
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 210720
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 210720
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 210772
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 211056
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 211385
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 211697
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 211697
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 211722
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 213638
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 213751
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 213795
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 213828
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 213957
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 214669
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 215045
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 215834
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 215971
+    },
+    {
+      "CreditType": "Bug-Fix",
+      "ReleaseID": 215971
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216022
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 216022
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216112
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 216112
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216173
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 216173
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 216355
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216360
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 216393
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 216393
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216880
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216912
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 216912
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216874
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 216867
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 216867
+    }
+  ],
+  "AttendedEventIDs": [
+    30,
+    8,
+    700,
+    2598,
+    76,
+    131,
+    2489,
+    2696,
+    2816
+  ],
+  "ScenerIDs": [
+    7406
+  ]
+}

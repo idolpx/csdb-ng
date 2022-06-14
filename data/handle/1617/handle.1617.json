@@ -1,0 +1,851 @@
+{
+  "ID": 1617,
+  "Handle": "Jailbird",
+  "CurrentlyUsedHandle": true,
+  "FreelanceFunctions": "Graphician",
+  "MemberOf": [
+    {
+      "Status": "ex",
+      "GroupID": 211
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "GroupID": 1193
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "GroupID": 165
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinYear": 1992,
+      "LeaveYear": 1994,
+      "Status": "ex",
+      "GroupID": 1133
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinMonth": 5,
+      "JoinYear": 1998,
+      "LeaveYear": 2000,
+      "Status": "ex",
+      "GroupID": 114
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinYear": 2000,
+      "LeaveYear": 2002,
+      "Status": "ex",
+      "GroupID": 5
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinYear": 2000,
+      "LeaveYear": 2002,
+      "Status": "ex",
+      "GroupID": 184
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "GroupID": 12
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinMonth": 8,
+      "JoinYear": 2002,
+      "Status": "active",
+      "GroupID": 505
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "JoinMonth": 6,
+      "JoinYear": 1996,
+      "LeaveYear": 1998,
+      "Status": "ex",
+      "GroupID": 1
+    },
+    {
+      "Profession": [
+        "Graphician"
+      ],
+      "Status": "ex",
+      "GroupID": 381
+    }
+  ],
+  "Released": {
+    "Release": [
+      {
+        "ID": "29503",
+        "Name": "They Are Among Us",
+        "Type": "C64 Graphics",
+        "GfxType": "FLI",
+        "ReleaseYear": "1999",
+        "ScreenShot": "https://csdb.dk/gfx/releases/29000/29503.gif"
+      },
+      {
+        "ID": "185347",
+        "Name": "Hardcore Logo",
+        "Type": "C64 Graphics",
+        "ReleaseDay": "24",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2019",
+        "ScreenShot": "https://csdb.dk/gfx/releases/185000/185347.png"
+      },
+      {
+        "ID": "129494",
+        "Name": "Padua Logo (Style is Innate)",
+        "Type": "C64 Graphics",
+        "GfxType": "MultiColor Interlace",
+        "ReleaseDay": "5",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2014",
+        "Rating": "9.52",
+        "ScreenShot": "https://csdb.dk/gfx/releases/129000/129494.png"
+      },
+      {
+        "ID": "146828",
+        "Name": "Effin Ol' Breeze Logo",
+        "Type": "C64 Graphics",
+        "GfxType": "MultiColor",
+        "ReleaseDay": "29",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2016",
+        "Rating": "9",
+        "ScreenShot": "https://csdb.dk/gfx/releases/146000/146828.png"
+      },
+      {
+        "ID": "152037",
+        "Name": "Alter/Ego",
+        "Type": "C64 Graphics",
+        "GfxType": "MultiColor",
+        "ReleaseDay": "2",
+        "ReleaseMonth": "12",
+        "ReleaseYear": "2016",
+        "Rating": "8.3",
+        "ScreenShot": "https://csdb.dk/gfx/releases/152000/152037.png"
+      },
+      {
+        "ID": "163316",
+        "Name": "I Am the Master of My Universe",
+        "Type": "C64 Graphics",
+        "GfxType": "MultiColor",
+        "ReleaseDay": "28",
+        "ReleaseMonth": "3",
+        "ReleaseYear": "2018",
+        "ReleasedAt": {
+          "Event": {
+            "ID": "2677",
+            "Name": "He-Man Jr. Compo",
+            "EventType": "Standalone Compo",
+            "AKA": "He-Man Junior Title Picture Compo",
+            "StartDay": "17",
+            "StartMonth": "3",
+            "StartYear": "2018",
+            "EndDay": "2",
+            "EndMonth": "4",
+            "EndYear": "2018"
+          }
+        },
+        "Achievement": {
+          "Compo": "C64 Graphics",
+          "Place": "1"
+        },
+        "Rating": "9.59",
+        "ScreenShot": "https://csdb.dk/gfx/releases/163000/163316.png"
+      }
+    ]
+  },
+  "Credits": [
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 1
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 707
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 138
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 856
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 860
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 862
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3425
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3305
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3369
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3372
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3299
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2363
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2381
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 2457
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 38
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3067
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3752
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3754
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3755
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3756
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3884
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3980
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4322
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4321
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4323
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4355
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4554
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 4957
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5698
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5702
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5993
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6029
+    },
+    {
+      "CreditType": "Disk Cover",
+      "ReleaseID": 5197
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6403
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6444
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6544
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6614
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6708
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 6848
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 7342
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 7991
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8157
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8413
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 8428
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8553
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8555
+    },
+    {
+      "CreditType": "Disk Cover",
+      "ReleaseID": 8792
+    },
+    {
+      "CreditType": "Disk Cover",
+      "ReleaseID": 8878
+    },
+    {
+      "CreditType": "Disk Cover",
+      "ReleaseID": 8879
+    },
+    {
+      "CreditType": "Disk Cover",
+      "ReleaseID": 8880
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 11687
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 12735
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 12732
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 13202
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 13533
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 13936
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 17469
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 18292
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 19418
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29501
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29502
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29503
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29512
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29523
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29532
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29535
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 29536
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 30142
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 8871
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 31594
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 31644
+    },
+    {
+      "CreditType": "Vote Sheet",
+      "ReleaseID": 31751
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 32484
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 32904
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 32909
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 33660
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 33778
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 33957
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 33964
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 39965
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 36213
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 36876
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 37625
+    },
+    {
+      "CreditType": "Disk Cover",
+      "ReleaseID": 38056
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 38231
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 38742
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 40947
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 41194
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 53972
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 45912
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 46150
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 46762
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 46763
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 50832
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 50893
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 51114
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 55304
+    },
+    {
+      "CreditType": "Idea",
+      "ReleaseID": 57070
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 63778
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 64184
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 72550
+    },
+    {
+      "CreditType": "Design",
+      "ReleaseID": 72550
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 73495
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 73699
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 73700
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 73701
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 73702
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 73734
+    },
+    {
+      "CreditType": "Interviewed",
+      "ReleaseID": 5090
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 9518
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 9518
+    },
+    {
+      "CreditType": "Interviewed",
+      "ReleaseID": 9518
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 77703
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 81153
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 81158
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5154
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 16338
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 85250
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5155
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 156395
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 156398
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3753
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 3753
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5169
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 3381
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5717
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 5718
+    },
+    {
+      "CreditType": "Original Supply",
+      "ReleaseID": 100013
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 101506
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 106309
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 115655
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 116340
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 118042
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 123613
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 129284
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 129321
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 129463
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 129494
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 129506
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 129645
+    },
+    {
+      "CreditType": "Code",
+      "ReleaseID": 32934
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 32934
+    },
+    {
+      "CreditType": "Help",
+      "ReleaseID": 130732
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 133313
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 19648
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 157460
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 146828
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 148074
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 150170
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 152037
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 163316
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 166659
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 171312
+    },
+    {
+      "CreditType": "Charset",
+      "ReleaseID": 177408
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 179123
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 185347
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 187524
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 187977
+    },
+    {
+      "CreditType": "Text",
+      "ReleaseID": 164258
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 197870
+    },
+    {
+      "CreditType": "Graphics",
+      "ReleaseID": 199134
+    }
+  ],
+  "OrganizedEventIDs": [
+    553
+  ],
+  "AttendedEventIDs": [
+    111,
+    286,
+    537,
+    959,
+    1044,
+    1031,
+    1132,
+    1250,
+    1265,
+    1308,
+    1364,
+    1358,
+    1466,
+    1362,
+    1860,
+    2082,
+    2677,
+    2769
+  ],
+  "ScenerIDs": [
+    1605
+  ]
+}

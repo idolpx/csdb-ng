@@ -1,0 +1,24 @@
+{
+  "ID": 1605,
+  "Trivia": "\"The opened outline is able to capture something of our secret thoughts and its permutative behaviour. We can recognize an item here and there but the line always glides further with unlimited combination of associations. Curves of the consiousness, curves of the subconcious.\" - someone from Wrath Design",
+  "Handles": [
+    {
+      "Handle": [
+        {
+          "ID": "1617",
+          "Handle": "Jailbird",
+          "CurrentlyUsedHandle": "true",
+          "Scener": {
+            "ID": "1605"
+          },
+          "FreelanceFunctions": {
+            "Function": "Graphician"
+          }
+        },
+        {
+          "ID": "28933"
+        }
+      ]
+    }
+  ]
+}

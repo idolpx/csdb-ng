@@ -1,0 +1,19 @@
+{
+  "ID": 27509,
+  "HVSCPath": "/MUSICIANS/S/Smart_Monkey/Funky_Tonk.sid",
+  "Name": "Funky Tonk",
+  "Author": "Arkadiusz Zych (Smart Monkey)",
+  "Released": "1992 Nebula",
+  "LoadAddr": 4096,
+  "InitAddr": 4096,
+  "PlayAddr": 4099,
+  "NOSongs": 1,
+  "DefaultSong": 1,
+  "SIDModel": "6581",
+  "ClockSpeed": "PAL",
+  "DataSize": 3156,
+  "ReleaseIDs": [
+    1,
+    67901
+  ]
+}
