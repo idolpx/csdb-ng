@@ -127,6 +127,7 @@ type Group {
     Rating: Float
     Trivia: String
     BaseCountry: String
+    IsCoOp: Boolean
 
     FoundDate: [FuzzyDate]
     DissolveDate: [FuzzyDate]

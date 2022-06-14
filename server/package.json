@@ -1,0 +1,16 @@
+{
+  "name": "csdb-ng",
+  "version": "1.0.0",
+  "description": "CSDb-ng GraphQL Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mon": "nodemon ./server.js localhost 3000"
+  },
+  "author": "Jaime Idolpx",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.7.0",
+    "graphql": "^16.5.0"
+  }
+}
