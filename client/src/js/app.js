@@ -1,4 +1,4 @@
-const GRAPHQL_URL = 'http://localhost:3000/';
+const GRAPHQL_URL = 'https://csdb.idolpx.com/';
 
 async function getRelease(id) {
     const response = await fetch(GRAPHQL_URL, {
