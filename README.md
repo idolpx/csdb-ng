@@ -9,4 +9,5 @@ This will be the central shared repo for the project.
 More to come soon.
 
 ## Evolving Schema
-![schema](docs/schema.20221118.png)
+
+[![schema](docs/schema.20221118.png)](https://csdb.idolpx.com/schema/index.html)
