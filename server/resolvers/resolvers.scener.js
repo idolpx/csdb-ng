@@ -1,10 +1,10 @@
 
-let globals = require('../globals.js').globals;
+let globals = require('../config.js').globals;
 
 const resolvers = {
 
     Query: {
-        getScener: (parent, { id }, context, info) => getScener(id),
+        scener: (parent, { id }, context, info) => getScener(id),
     },
 
     Mutation: {
@@ -17,17 +17,30 @@ const resolvers = {
 
     //////////
     Scener: {
-        HandleIDs: ({ HandleIDs }, args, context, info) => addHandles(HandleIDs, context),
-        Handles: (parent, args, context, info) => context.Handles,
+        Handles: ({ HandleIDs }, args, context, info) => getHandles(HandleIDs),
     },
 
 }
 
-getScenerFile = id => `${globals.data_path}/scener/${id}/scener.${id}.json`;
+getScenerFile = id => `${globals.data_path}/scener/${Math.floor(id/1000)}/${id}/scener.${id}.json`;
 
 // Object loader
 getScener = id => {
     return loadJSON(getScenerFile(id));
+}
+getSceners = idArray => {
+    data = [];
+    try {
+        idArray.forEach( id => {
+            // Add object
+            data.push(getScener(id));
+        }) 
+    }
+    catch(err) {
+        //console.log(err);
+    }
+
+    return data;
 }
 
 // Load object by ID or ID array

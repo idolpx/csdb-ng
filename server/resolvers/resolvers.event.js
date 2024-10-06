@@ -1,10 +1,10 @@
 
-let globals = require('../globals.js').globals;
+let globals = require('../config.js').globals;
 
 const resolvers = {
 
     Query: {
-        getEvent: (parent, { id }, context, info) => getEvent(id),
+        event: (parent, { id }, context, info) => getEvent(id),
     },
 
     Mutation: {
@@ -17,31 +17,43 @@ const resolvers = {
 
     //////////
     Event: {
-        Releases: (parent, args, context, info) => context.Releases,
-        Groups: (parent, args, context, info) => context.Groups,
-        Handles: (parent, args, context, info) => context.Handles,
+        // Releases: (parent, args, context, info) => context.Releases,
     },
     EventCompo: {
-        ReleaseIDs: ({ ReleaseIDs }, args, context, info) => addReleases(ReleaseIDs, context),
+        Releases: ({ ReleaseIDs }, args, context, info) => getReleases(ReleaseIDs),
     },
     EventReport: {
-        HandleID: ({ HandleID }, args, context, info) => addHandle(HandleID, context),
+        Handle: ({ HandleID }, args, context, info) => getHandle(HandleID),
     },
     EventComment: {
-        HandleID: ({ HandleID }, args, context, info) => addHandle(HandleID, context),
+        Handle: ({ HandleID }, args, context, info) => getHandle(HandleID),
     },
     EventOrganizers: {
-        GroupIDs: ({ GroupIDs }, args, context, info) => addGroups(GroupIDs, context),
-        HandleIDs: ({ HandleIDs }, args, context, info) => addHandles(HandleIDs, context),
+        Groups: ({ GroupIDs }, args, context, info) => getGroups(GroupIDs),
+        Handles: ({ HandleIDs }, args, context, info) => getHandles(HandleIDs),
     },
 
 }
 
-getEventFile = id => `${globals.data_path}/event/${id}/event.${id}.json`;
+getEventFile = id => `${globals.data_path}/event/${Math.floor(id/1000)}/${id}/event.${id}.json`;
 
 // Object loader
 getEvent = id => {
     return loadJSON(getEventFile(id));
+}
+getEvents = idArray => {
+    data = [];
+    try {
+        idArray.forEach( id => {
+            // Add object
+            data.push(getEvent(id));
+        }) 
+    }
+    catch(err) {
+        //console.log(err);
+    }
+
+    return data;
 }
 
 // Load object by ID or ID array

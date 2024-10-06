@@ -45,7 +45,7 @@ loadJSON = filename => {
 
     if ( !fs.existsSync(filename) )
         return null;
-        
+
     const data = fs.readFileSync(filename, {encoding:'utf8', flag:'r'});
 
     if ( !data )
@@ -64,7 +64,7 @@ addElementToObjectArray = (object, array, element) => {
         } else {
             // No - Create the array
             object[array] = [element];
-        }        
+        }
     }
 }
 

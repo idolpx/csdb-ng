@@ -1,10 +1,10 @@
 
-let globals = require('../globals.js').globals;
+let globals = require('../config.js').globals;
 
 const resolvers = {
 
     Query: {
-        getSID: (parent, { id }, context, info) => getSID(id),
+        sid: (parent, { id }, context, info) => getSID(id),
     },
 
     Mutation: {
@@ -17,18 +17,30 @@ const resolvers = {
 
     //////////
     SID: {
-        ReleaseIDs: ({ ReleaseIDs }, args, context, info) => addReleases(ReleaseIDs, context),
-
-        Releases: (parent, args, context, info) => context.Releases,
+        Releases: ({ ReleaseIDs }, args, context, info) => getReleases(ReleaseIDs),
     }
 
 }
 
-getSIDFile = id => `${globals.data_path}/sid/${id}/sid.${id}.json`;
+getSIDFile = id => `${globals.data_path}/sid/${Math.floor(id/1000)}/${id}/sid.${id}.json`;
 
 // Object loader
 getSID = id => {
     return loadJSON(getSIDFile(id));
+}
+getSIDs = idArray => {
+    data = [];
+    try {
+        idArray.forEach( id => {
+            // Add object
+            data.push(getSID(id));
+        }) 
+    }
+    catch(err) {
+        //console.log(err);
+    }
+
+    return data;
 }
 
 // Load object by ID or ID array

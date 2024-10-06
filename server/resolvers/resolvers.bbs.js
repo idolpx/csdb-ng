@@ -1,10 +1,10 @@
 
-let globals = require('../globals.js').globals;
+let globals = require('../config.js').globals;
 
 const resolvers = {
 
     Query: {
-        getBBS: (parent, { id }, context, info) => getBBS(id),
+        bbs: (parent, { id }, context, info) => getBBS(id),
     },
 
     Mutation: {
@@ -17,23 +17,34 @@ const resolvers = {
 
     //////////
     BBS: {
-        GroupIDs: ({ GroupIDs }, args, context, info) => addGroups(GroupIDs, context),
-        UserHandleIDs: ({ UserHandleIDs }, args, context, info) => addHandles(UserHandleIDs, context),
-
-        Groups: (parent, args, context, info) => context.Groups,
-        Handles: (parent, args, context, info) => context.Handles,
+        Groups: ({ GroupIDs }, args, context, info) => getGroups(GroupIDs),
+        Handles: ({ HandleIDs }, args, context, info) => getHandles(HandleIDs),
     },
     BBSSysop: {
-        HandleID: ({ HandleID }, args, context, info) => addHandle(HandleID, context),
+        Handle: ({ HandleID }, args, context, info) => getHandle(HandleID),
     },
 
 }
 
-getBBSFile = id => `${globals.data_path}/bbs/${id}/bbs.${id}.json`;
+getBBSFile = id => `${globals.data_path}/bbs/${Math.floor(id/1000)}/${id}/bbs.${id}.json`;
 
 // Object loader
 getBBS = id => {
     return loadJSON(getBBSFile(id));
+}
+getBBSs = idArray => {
+    data = [];
+    try {
+        idArray.forEach( id => {
+            // Add object
+            data.push(getBBS(id));
+        }) 
+    }
+    catch(err) {
+        //console.log(err);
+    }
+
+    return data;
 }
 
 // Load object by ID or ID array

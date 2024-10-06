@@ -1,10 +1,11 @@
 
-let globals = require('../globals.js').globals;
+let globals = require('../config.js').globals;
 
 const resolvers = {
 
     Query: {
-        getHandle: (parent, { id }, context, info) => getHandle(id),
+        handle: (parent, { id }, context, info) => getHandle(id),
+        handles: (parent, { ids }, context, info) => getHandles(ids),
     },
 
     Mutation: {
@@ -17,30 +18,45 @@ const resolvers = {
 
     //////////
     Handle: {
-        FoundedGroupIDs: ({ FoundedGroupIDs }, args, context, info) => addGroups(FoundedGroupIDs, context),
-        OrganizedEventIDs: ({ OrganizedEventIDs }, args, context, info) => addEvents(OrganizedEventIDs, context),
-        AttendedEventIDs: ({ AttendedEventIDs }, args, context, info) => addEvents(AttendedEventIDs, context),
-        ScenerIDs: ({ ScenerIDs }, args, context, info) => addSceners(ScenerIDs, context),
+        FoundedGroups: ({ FoundedGroupIDs }, args, context, info) => getGroups(FoundedGroupIDs),
+        MemberGroups: ({ MemberGroupIDs }, args, context, info) => getGroups(MemberGroupIDs),
+        OrganizedEvents: ({ OrganizedGroupIDs }, args, context, info) => getGroups(OrganizedGroupIDs),
+        AttendedEvents: ({ AttendedEventIDs }, args, context, info) => getEvents(AttendedEventIDs),
 
-        Releases: (parent, args, context, info) => context.Releases,
-        Groups: (parent, args, context, info) => context.Groups,
-        Sceners: (parent, args, context, info) => context.Sceners,
-        Events: (parent, args, context, info) => context.Events,
+        BBSSysop: ({ BBSSysopIDs }, args, context, info) => getBBSs(BBSSysopIDs),
+        BBSUser: ({ BBSUserIDs }, args, context, info) => getBBSs(BBSUserIDs),
+
+        Releases: ({ ReleaseIDs }, args, context, info) => getSceners(ReleaseIDs),
+        Sceners: ({ ScenerIDs }, args, context, info) => getSceners(ScenerIDs),
     },
     HandleGroup: {
-        GroupID: ({ GroupID }, args, context, info) => addGroup(GroupID, context),
+        GroupID: ({ GroupID }, args, context, info) => getGroup(GroupID),
     },
     HandleCredit: {
-        ReleaseID: ({ ReleaseID }, args, context, info) => addRelease(ReleaseID, context),
+        ReleaseID: ({ ReleaseID }, args, context, info) => getRelease(ReleaseID),
     },
 
 }
 
-getHandleFile = id => `${globals.data_path}/handle/${id}/handle.${id}.json`;
+getHandleFile = id => `${globals.data_path}/handle/${Math.floor(id/1000)}/${id}/handle.${id}.json`;
 
 // Object loader
 getHandle = id => {
     return loadJSON(getHandleFile(id));
+}
+getHandles = idArray => {
+    data = [];
+    try {
+        idArray.forEach( id => {
+            // Add object
+            data.push(getHandle(id));
+        }) 
+    }
+    catch(err) {
+        //console.log(err);
+    }
+
+    return data;
 }
 
 // Load object by ID or ID array

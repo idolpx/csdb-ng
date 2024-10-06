@@ -1,10 +1,10 @@
 
-let globals = require('../globals.js').globals;
+let globals = require('../config.js').globals;
 
 const resolvers = {
 
     Query: {
-        getRelease: (parent, { id }, context, info) => getRelease(id),
+        release: (parent, { id }, context, info) => getRelease(id),
     },
 
     Mutation: {
@@ -17,33 +17,41 @@ const resolvers = {
 
     //////////
     Release: {
-        ReleasedAt: ({ ReleasedAt }, args, context, info) => addEvent(ReleasedAt, context),
-        SIDIDs: ({ SIDIDs }, args, context, info) => addSIDs(SIDIDs, context),
-
-        Groups: (parent, args, context, info) => context.Groups,
-        Sceners: (parent, args, context, info) => context.Sceners,
-        Handles: (parent, args, context, info) => context.Handles,
-        Events: (parent, args, context, info) => context.Events,
-        SIDs: (parent, args, context, info) => context.SIDs,
+        ReleasedAtEvent: ({ ReleasedAt }, args, context, info) => getEvent(ReleasedAt),
+        SIDs: ({ SIDIDs }, args, context, info) => getSIDs(SIDIDs),
     },
     ReleaseGroupsHandles: {
-        GroupIDs: ({ GroupIDs }, args, context, info) => addGroups(GroupIDs, context),
-        HandleIDs: ({ HandleIDs }, args, context, info) => addHandles(HandleIDs, context),
+        Groups: ({ GroupIDs }, args, context, info) => getGroups(GroupIDs),
+        Handles: ({ HandleIDs }, args, context, info) => getHandles(HandleIDs),
     },
     ReleaseCredit: {
-        HandleID: ({ HandleID }, args, context, info) => addHandle(HandleID, context),
-    },     
+        Handles: ({ HandleIDs }, args, context, info) => getHandles(HandleIDs),
+    },
     ReleaseCommentData: {
-        ScenerID: ({ ScenerID }, args, context, info) => addScener(ScenerID, context),
+        Handle: ({ HandleID }, args, context, info) => getHandle(HandleID),
     },
 
 }
 
-getReleaseFile = id => `${globals.data_path}/release/${id}/release.${id}.json`;
+getReleaseFile = id => `${globals.data_path}/release/${Math.floor(id/1000)}/${id}/release.${id}.json`;
 
 // Object loader
 getRelease = id => {
     return loadJSON(getReleaseFile(id));
+}
+getReleases = idArray => {
+    data = [];
+    try {
+        idArray.forEach( id => {
+            // Add object
+            data.push(getRelease(id));
+        }) 
+    }
+    catch(err) {
+        console.log(err);
+    }
+
+    return data;
 }
 
 // Load object by ID or ID array
@@ -62,7 +70,7 @@ addReleases = (idArray, context) => {
         }) 
     }
     catch(err) {
-        // console.log(err);
+        console.log(err);
     }
 
     return idArray;
