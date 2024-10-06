@@ -17,6 +17,7 @@ type User {
 
     MaintainerOf: UserRecords
 
+    # Enhanced Data
     uuid: String
     dateCreated: String
     dateUpdated: String
@@ -39,33 +40,30 @@ type Release {
     ID: Int!
     Name: String!
     AKA: String
-    Type: String
-    GfxType: String
+    Type: String        # should go in tag
+    GfxType: String     # should go in tag
     Rating: Float
     ReleaseDate: [FuzzyDate]
 
     ReleasedAt: Int
+    ReleasedAtEvent: Event
     Achievement: ReleaseAchievement
     ReleasedBy: ReleaseGroupsHandles
     Credits: [ReleaseCredit]
 
     Website: String
-    ScreenShot: String
+    ScreenShot: [String]
     DownloadLinks: [ReleaseDownload]
     OtherLinks: [ReleaseLink]
 
     Comments: [ReleaseComment]
 
     SIDIDs: [Int]
-
-    Groups: [Group]
-    Sceners: [Scener]
-    Handles: [Handle]
-    Events: [Event]
     SIDs: [SID]
-    Tags: [String]
 
+    # Enhanced Data
     uuid: String
+    tags: [String]
     dateCreated: String
     dateUpdated: String
     deleted: Boolean
@@ -79,12 +77,15 @@ type ReleaseAchievement {
 
 type ReleaseGroupsHandles {
     GroupIDs: [Int]
+    Groups: [Group]
     HandleIDs: [Int]
+    Handles: [Handle]
 }
 
 type ReleaseCredit {
     CreditType: String!
-    HandleID: Int!
+    HandleIDs: [Int!]
+    Handles: [Handle]
 }
 
 type ReleaseLink {
@@ -100,13 +101,13 @@ type ReleaseDownload {
     Filename: String
     Link: String!
     Status: String
-    crc32: String
+    hash: String
 }
 
 type ReleaseComment {
     Summary: [ReleaseCommentData]
     Trivia: [ReleaseCommentData]
-    Goofs: [ReleaseCommentData]
+    Goof: [ReleaseCommentData]
     HiddenPart: [ReleaseCommentData]
     ProductionNote: [ReleaseCommentData]
     UserComment: [ReleaseCommentData]
@@ -114,7 +115,8 @@ type ReleaseComment {
 
 type ReleaseCommentData {
     Date: Int!
-    ScenerID: Int!
+    HandleID: Int!
+    Handle: Handle
     Text: String!
 }
 
@@ -127,7 +129,6 @@ type Group {
     Rating: Float
     Trivia: String
     BaseCountry: String
-    IsCoOp: Boolean
 
     FoundDate: [FuzzyDate]
     DissolveDate: [FuzzyDate]
@@ -135,22 +136,26 @@ type Group {
     Website: String
     Grouptypes: [String]
     Slogan: [String]
-    UserComment: [GroupCommentData]
+
+    FounderHandleIDs: [Int]
+    FounderHandles: [Handle]
+    OrganizedEventIDs: [Int]
+    OrganizedEvents: [Event]
+    Members: [GroupMember]
 
     ReleaseIDs: [Int]
-    Members: [GroupMember]
-    FounderHandleIDs: [Int]
-    OrganizedEventIDs: [Int]
-    BBSIDs: [Int]
-
     Releases: [Release]
-    Sceners: [Scener]
-    Handles: [Handle]
-    Events: [Event]
+    BBSIDs: [Int]
     BBSs: [BBS]
-    Tags: [String]
+
+    UserComment: [GroupCommentData]
+
+    # Enhanced Data
+    CoOpGroupIDs: [Int]
+    CoOpGroups: [Group]
 
     uuid: String
+    tags: [String]
     dateCreated: String
     dateUpdated: String
     deleted: Boolean
@@ -159,13 +164,14 @@ type Group {
 
 type GroupCommentData {
     Date: Int!
-    ScenerID: Int!
+    HandleID: Int!
+    Handle: Handle
     Text: String!
 }
 
 type GroupMember {
-    GroupID: Int
-    HandleID: Int
+    HandleID: Int!
+    Handle: Handle
     Profession: [String]
 
     JoinDate: [FuzzyDate]
@@ -173,7 +179,6 @@ type GroupMember {
 
     Status: String
 }
-
 
 type Scener {
     ID: Int!
@@ -184,10 +189,11 @@ type Scener {
     DeathDate: [FuzzyDate]
 
     HandleIDs: [Int]
-
     Handles: [Handle]
 
+    # Enhanced Data
     uuid: String
+    tags: [String]
     dateCreated: String
     dateUpdated: String
     deleted: Boolean
@@ -205,16 +211,28 @@ type Handle {
     Credits: [HandleCredit]
 
     FoundedGroupIDs: [Int]
+    FoundedGroups: [Group]
+    MemberGroupIDs: [Int]
+    MemberGroups: [Group]
+
     OrganizedEventIDs: [Int]
+    OrganizedEvents: [Event]
     AttendedEventIDs: [Int]
-    ScenerIDs: [Int]
+    AttendedEvents: [Event]
 
+    BBSSysopIDs: [Int]
+    BBSSysop: [BBS]
+    BBSUserIDs: [Int]
+    BBSUser: [BBS]
+
+    ReleaseIDs: [Int]
     Releases: [Release]
-    Groups: [Group]
+    ScenerIDs: [Int]
     Sceners: [Scener]
-    Events: [Event]
 
+    # Enhanced Data
     uuid: String
+    tags: [String]
     dateCreated: String
     dateUpdated: String
     deleted: Boolean
@@ -224,12 +242,16 @@ type Handle {
 type HandleGroup {
     GroupID: Int!
     MemberStats: GroupMember
+    Group: Group
 }
 
 type HandleCredit {
     CreditType: String!
-    ReleaseID: Int!
+    ReleaseID: [Int]!
+    Release: [Release]
 }
+
+
 
 
 type Event {
@@ -249,17 +271,14 @@ type Event {
     Country: String
     Website: String
 
-    OrganizerGroup: Group
+    Organizers: EventOrganizers
     Compo: [EventCompo]
     PartyReport: [EventReport]
     UserComment: [EventComment]
-    Organizers: EventOrganizers
 
-    Releases: [Release]
-    Groups: [Group]
-    Handles: [Handle]
-
+    # Enhanced Data
     uuid: String
+    tags: [String]
     dateCreated: String
     dateUpdated: String
     deleted: Boolean
@@ -269,6 +288,7 @@ type Event {
 type EventCompo {
     Type: String
     ReleaseIDs: [Int]
+    Releases: [Release]
 }
 
 type EventReport {
@@ -277,17 +297,21 @@ type EventReport {
     Date: Int
     Headline: String
     Text: String
+    Handle: Handle
 }
 
 type EventComment {
     HandleID: Int!
     Date: Int!
     Text: String!
+    Handle: Handle
 }
 
 type EventOrganizers {
     GroupIDs: [Int]
+    Groups: [Group]
     HandleIDs: [Int]
+    Handles: [Handle]
 }
 
 type BBS {
@@ -307,12 +331,13 @@ type BBS {
     Status: String
 
     GroupIDs: [Int]
-    UserHandleIDs: [Int]
-
     Groups: [Group]
+    HandleIDs: [Int]
     Handles: [Handle]
 
+    # Enhanced Data
     uuid: String
+    tags: [String]
     dateCreated: String
     dateUpdated: String
     deleted: Boolean
@@ -327,6 +352,7 @@ type BBSOnlinePeriod {
 type BBSSysop {
     Type: String
     HandleID: Int
+    Handle: Handle
 }
 
 
@@ -346,10 +372,11 @@ type SID {
     DataSize: Int
 
     ReleaseIDs: [Int]
-
     Releases: [Release]
 
+    # Enhanced Data
     uuid: String
+    tags: [String]
     dateCreated: String
     dateUpdated: String
     deleted: Boolean
@@ -358,13 +385,14 @@ type SID {
 
 
 type Query {
-    getRelease(id: Int!) : Release
-    getGroup(id: Int!) : Group
-    getScener(id: Int!) : Scener
-    getHandle(id: Int!) : Handle
-    getEvent(id: Int!) : Event
-    getBBS(id: Int!) : BBS
-    getSID(id: Int!) : SID
+    release(id: Int!) : Release
+    group(id: Int!) : Group
+    scener(id: Int!) : Scener
+    handle(id: Int!) : Handle
+    handles(id: [Int]!) : [Handle]
+    event(id: Int!) : Event
+    bbs(id: Int!) : BBS
+    sid(id: Int!) : SID
 }
 
 type Mutation {
