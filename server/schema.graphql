@@ -36,6 +36,8 @@ type UserRecords {
 }
 
 
+
+
 type Release {
     ID: Int!
     Name: String!
@@ -121,6 +123,8 @@ type ReleaseCommentData {
 }
 
 
+
+
 type Group {
     ID: Int!
     Name: String!
@@ -180,6 +184,9 @@ type GroupMember {
     Status: String
 }
 
+
+
+
 type Scener {
     ID: Int!
     RegisterdDate: String
@@ -199,6 +206,8 @@ type Scener {
     deleted: Boolean
     dateDeleted: String
 }
+
+
 
 
 type Handle {
@@ -314,6 +323,9 @@ type EventOrganizers {
     Handles: [Handle]
 }
 
+
+
+
 type BBS {
     ID: Int!
     Name: String!
@@ -356,6 +368,8 @@ type BBSSysop {
 }
 
 
+
+
 type SID {
     ID: Int!
     HVSCPath: String
@@ -382,6 +396,8 @@ type SID {
     deleted: Boolean
     dateDeleted: String
 }
+
+
 
 
 type Query {
