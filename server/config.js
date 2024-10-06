@@ -1,7 +1,7 @@
 
 
 const globals = {
-    data_path: '/Users/jjohnston/src/csdb.bot/data'
+    data_path: '/path/to/data'
 }
 
 module.exports = { globals }
