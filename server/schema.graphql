@@ -86,7 +86,7 @@ type ReleaseGroupsHandles {
 
 type ReleaseCredit {
     CreditType: String!
-    HandleIDs: [Int!]
+    HandleIDs: [Int]
     Handles: [Handle]
 }
 
@@ -256,8 +256,8 @@ type HandleGroup {
 
 type HandleCredit {
     CreditType: String!
-    ReleaseID: [Int]!
-    Release: [Release]
+    ReleaseIDs: [Int]
+    Releases: [Release]
 }
 
 
