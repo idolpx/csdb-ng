@@ -26,7 +26,7 @@ const resolvers = {
         BBSSysop: ({ BBSSysopIDs }, args, context, info) => getBBSs(BBSSysopIDs),
         BBSUser: ({ BBSUserIDs }, args, context, info) => getBBSs(BBSUserIDs),
 
-        Releases: ({ ReleaseIDs }, args, context, info) => getSceners(ReleaseIDs),
+        Releases: ({ ReleaseIDs }, args, context, info) => getReleases(ReleaseIDs),
         Sceners: ({ ScenerIDs }, args, context, info) => getSceners(ScenerIDs),
     },
     HandleGroup: {
