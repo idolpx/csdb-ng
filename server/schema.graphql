@@ -402,13 +402,25 @@ type SID {
 
 type Query {
     release(id: Int!) : Release
+    releases(id: [Int]!) : [Release]
+
     group(id: Int!) : Group
+    groups(id: [Int]!) : [Group]
+
     scener(id: Int!) : Scener
+    sceners(id: [Int]!) : [Scener]
+
     handle(id: Int!) : Handle
     handles(id: [Int]!) : [Handle]
+
     event(id: Int!) : Event
+    events(id: [Int]!) : [Event]
+
     bbs(id: Int!) : BBS
+    bbss(id: [Int]!) : [BBS]
+
     sid(id: Int!) : SID
+    sids(id: [Int]!) : [SID]
 }
 
 type Mutation {
