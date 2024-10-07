@@ -30,10 +30,10 @@ const resolvers = {
         Sceners: ({ ScenerIDs }, args, context, info) => getSceners(ScenerIDs),
     },
     HandleGroup: {
-        GroupID: ({ GroupID }, args, context, info) => getGroup(GroupID),
+        Group: ({ GroupID }, args, context, info) => getGroup(GroupID),
     },
     HandleCredit: {
-        ReleaseID: ({ ReleaseID }, args, context, info) => getRelease(ReleaseID),
+        Releases: ({ ReleaseIDs }, args, context, info) => getReleases(ReleaseIDs),
     },
 
 }
