@@ -10,4 +10,4 @@ More to come soon.
 
 ## Evolving Schema
 
-[![schema](docs/schema.20221118.png)](https://csdb.idolpx.com/schema/index.html)
+[![schema](docs/schema.20241006.png)](https://csdb.idolpx.com/schema/index.html)
