@@ -5,6 +5,7 @@ const resolvers = {
 
     Query: {
         bbs: (parent, { id }, context, info) => getBBS(id),
+        bbss: (parent, { id }, context, info) => getBBSs(id),
     },
 
     Mutation: {

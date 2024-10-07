@@ -5,6 +5,7 @@ const resolvers = {
 
     Query: {
         group: (parent, { id }, context, info) => getGroup(id),
+        groups: (parent, { id }, context, info) => getGroups(id),
     },
 
     Mutation: {

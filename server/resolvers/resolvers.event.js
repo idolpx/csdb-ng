@@ -5,6 +5,7 @@ const resolvers = {
 
     Query: {
         event: (parent, { id }, context, info) => getEvent(id),
+        events: (parent, { id }, context, info) => getEvents(id),
     },
 
     Mutation: {

@@ -5,6 +5,7 @@ const resolvers = {
 
     Query: {
         scener: (parent, { id }, context, info) => getScener(id),
+        sceners: (parent, { id }, context, info) => getSceners(id),
     },
 
     Mutation: {

@@ -5,7 +5,7 @@ const resolvers = {
 
     Query: {
         handle: (parent, { id }, context, info) => getHandle(id),
-        handles: (parent, { ids }, context, info) => getHandles(ids),
+        handles: (parent, { id }, context, info) => getHandles(id),
     },
 
     Mutation: {
@@ -45,6 +45,7 @@ getHandle = id => {
     return loadJSON(getHandleFile(id));
 }
 getHandles = idArray => {
+    console.log(idArray)
     data = [];
     try {
         idArray.forEach( id => {

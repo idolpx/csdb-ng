@@ -5,6 +5,7 @@ const resolvers = {
 
     Query: {
         sid: (parent, { id }, context, info) => getSID(id),
+        sids: (parent, { id }, context, info) => getSIDs(id),
     },
 
     Mutation: {

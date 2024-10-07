@@ -5,6 +5,7 @@ const resolvers = {
 
     Query: {
         release: (parent, { id }, context, info) => getRelease(id),
+        releases: (parent, { id }, context, info) => getReleases(id),
     },
 
     Mutation: {
