@@ -1,0 +1,15 @@
+advanced
+asslace
+escos
+fli
+hires
+ifli
+interlaced
+mufli
+multicolor
+nufli
+petscii
+sprites
+super
+ufli
+uifli
