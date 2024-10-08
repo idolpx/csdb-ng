@@ -1,11 +1,11 @@
 
-let globals = require('../config.js').globals;
+
 
 const resolvers = {
 
     Query: {
         scener: (parent, { id }, context, info) => getScener(id),
-        sceners: (parent, { id }, context, info) => getSceners(id),
+        sceners: (parent, { ids }, context, info) => getSceners(ids),
     },
 
     Mutation: {
@@ -23,7 +23,7 @@ const resolvers = {
 
 }
 
-getScenerFile = id => `${globals.data_path}/scener/${Math.floor(id/1000)}/${id}/scener.${id}.json`;
+getScenerFile = id => `${process.env.DATA_PATH}/scener/${Math.floor(id/1000)}/${id}/scener.${id}.json`;
 
 // Object loader
 getScener = id => {

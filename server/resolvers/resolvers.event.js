@@ -1,11 +1,11 @@
 
-let globals = require('../config.js').globals;
+
 
 const resolvers = {
 
     Query: {
         event: (parent, { id }, context, info) => getEvent(id),
-        events: (parent, { id }, context, info) => getEvents(id),
+        events: (parent, { ids }, context, info) => getEvents(ids),
     },
 
     Mutation: {
@@ -36,7 +36,7 @@ const resolvers = {
 
 }
 
-getEventFile = id => `${globals.data_path}/event/${Math.floor(id/1000)}/${id}/event.${id}.json`;
+getEventFile = id => `${process.env.DATA_PATH}/event/${Math.floor(id/1000)}/${id}/event.${id}.json`;
 
 // Object loader
 getEvent = id => {

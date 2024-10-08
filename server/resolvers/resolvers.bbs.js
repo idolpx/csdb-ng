@@ -1,11 +1,11 @@
 
-let globals = require('../config.js').globals;
+
 
 const resolvers = {
 
     Query: {
         bbs: (parent, { id }, context, info) => getBBS(id),
-        bbss: (parent, { id }, context, info) => getBBSs(id),
+        bbss: (parent, { ids }, context, info) => getBBSs(ids),
     },
 
     Mutation: {
@@ -27,7 +27,7 @@ const resolvers = {
 
 }
 
-getBBSFile = id => `${globals.data_path}/bbs/${Math.floor(id/1000)}/${id}/bbs.${id}.json`;
+getBBSFile = id => `${process.env.DATA_PATH}/bbs/${Math.floor(id/1000)}/${id}/bbs.${id}.json`;
 
 // Object loader
 getBBS = id => {

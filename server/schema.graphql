@@ -1,5 +1,10 @@
 
-
+"""
+FuzzyDate is used to specify an inexact date.
+"Operator" can be used to signify "before", "after", "approximately", etc. 
+"Comment" is for extra detail if needed.
+Any of the "Day", "Month", or "Year" fields can be set or left empty as required.
+"""
 type FuzzyDate {
     Operator: String
     Day: Int
@@ -19,10 +24,10 @@ type User {
 
     # Enhanced Data
     uuid: String
-    dateCreated: String
-    dateUpdated: String
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
 type UserRecords {
@@ -37,20 +42,28 @@ type UserRecords {
 
 
 
-
+"""
+A Release is a unique item or collection of files
+"""
 type Release {
     ID: Int!
     Name: String!
+    """Alternative name"""
     AKA: String
     Type: String        # should go in tag
     GfxType: String     # should go in tag
+    """Average rating based on votes"""
     Rating: Float
+    """Identifies when item was first made public"""
     ReleaseDate: [FuzzyDate]
 
+    """Event that item was first introduced"""
     ReleasedAt: Int
     ReleasedAtEvent: Event
     Achievement: ReleaseAchievement
     ReleasedBy: ReleaseGroupsHandles
+
+    """Credits identify who worked on what parts of the item"""
     Credits: [ReleaseCredit]
 
     Website: String
@@ -58,18 +71,31 @@ type Release {
     DownloadLinks: [ReleaseDownload]
     OtherLinks: [ReleaseLink]
 
+    """Comments on various aspects of the item"""
     Comments: [ReleaseComment]
 
+    """SID music used in this release"""
     SIDIDs: [Int]
     SIDs: [SID]
 
     # Enhanced Data
+    """Unique GUID"""
     uuid: String
+    """
+    Tags are used for search and grouping by category.
+    Types of tags are Automated, Required, and Optional.
+    """
     tags: [String]
-    dateCreated: String
-    dateUpdated: String
+    """
+    Parent ID is used to identify and group different versions of the same release.
+    It should be set to the origial Release ID.
+    https://github.com/idolpx/csdb-ng/issues/13
+    """
+    parent_id: Int
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
 type ReleaseAchievement {
@@ -160,10 +186,10 @@ type Group {
 
     uuid: String
     tags: [String]
-    dateCreated: String
-    dateUpdated: String
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
 type GroupCommentData {
@@ -174,8 +200,15 @@ type GroupCommentData {
 }
 
 type GroupMember {
-    HandleID: Int!
+    HandleID: Int
     Handle: Handle
+    """
+    Groups can be member of another group
+    https://github.com/idolpx/csdb-ng/issues/7
+    """
+    GroupID: Int
+    Group: Group
+
     Profession: [String]
 
     JoinDate: [FuzzyDate]
@@ -201,10 +234,10 @@ type Scener {
     # Enhanced Data
     uuid: String
     tags: [String]
-    dateCreated: String
-    dateUpdated: String
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
 
@@ -242,10 +275,10 @@ type Handle {
     # Enhanced Data
     uuid: String
     tags: [String]
-    dateCreated: String
-    dateUpdated: String
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
 type HandleGroup {
@@ -288,10 +321,10 @@ type Event {
     # Enhanced Data
     uuid: String
     tags: [String]
-    dateCreated: String
-    dateUpdated: String
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
 type EventCompo {
@@ -350,10 +383,10 @@ type BBS {
     # Enhanced Data
     uuid: String
     tags: [String]
-    dateCreated: String
-    dateUpdated: String
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
 type BBSOnlinePeriod {
@@ -391,36 +424,44 @@ type SID {
     # Enhanced Data
     uuid: String
     tags: [String]
-    dateCreated: String
-    dateUpdated: String
+    date_created: String
+    date_pdated: String
     deleted: Boolean
-    dateDeleted: String
+    date_deleted: String
 }
 
+
+type SearchResult {
+    id: Int
+    name: String
+    tags: String
+}
 
 
 
 type Query {
     release(id: Int!) : Release
-    releases(id: [Int]!) : [Release]
+    releases(ids: [Int]!) : [Release]
 
     group(id: Int!) : Group
-    groups(id: [Int]!) : [Group]
+    groups(ids: [Int]!) : [Group]
 
     scener(id: Int!) : Scener
-    sceners(id: [Int]!) : [Scener]
+    sceners(ids: [Int]!) : [Scener]
 
     handle(id: Int!) : Handle
-    handles(id: [Int]!) : [Handle]
+    handles(ids: [Int]!) : [Handle]
 
     event(id: Int!) : Event
-    events(id: [Int]!) : [Event]
+    events(ids: [Int]!) : [Event]
 
     bbs(id: Int!) : BBS
-    bbss(id: [Int]!) : [BBS]
+    bbss(ids: [Int]!) : [BBS]
 
     sid(id: Int!) : SID
-    sids(id: [Int]!) : [SID]
+    sids(ids: [Int]!) : [SID]
+
+    search(query: String) : [Release]
 }
 
 type Mutation {

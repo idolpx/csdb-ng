@@ -1,11 +1,11 @@
 
-let globals = require('../config.js').globals;
+
 
 const resolvers = {
 
     Query: {
         sid: (parent, { id }, context, info) => getSID(id),
-        sids: (parent, { id }, context, info) => getSIDs(id),
+        sids: (parent, { ids }, context, info) => getSIDs(ids),
     },
 
     Mutation: {
@@ -23,7 +23,7 @@ const resolvers = {
 
 }
 
-getSIDFile = id => `${globals.data_path}/sid/${Math.floor(id/1000)}/${id}/sid.${id}.json`;
+getSIDFile = id => `${process.env.DATA_PATH}/sid/${Math.floor(id/1000)}/${id}/sid.${id}.json`;
 
 // Object loader
 getSID = id => {

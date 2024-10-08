@@ -2,6 +2,9 @@ const { ApolloServer } = require('apollo-server');
 
 const fs = require('fs');
 
+require('dotenv').config()
+console.log(process);
+
 const typeDefs = fs.readFileSync('./schema.graphql', { encoding:'utf-8' })
 const resolvers = require('./resolvers/resolvers.js').resolvers
 

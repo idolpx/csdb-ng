@@ -1,11 +1,11 @@
 
-let globals = require('../config.js').globals;
+
 
 const resolvers = {
 
     Query: {
         handle: (parent, { id }, context, info) => getHandle(id),
-        handles: (parent, { id }, context, info) => getHandles(id),
+        handles: (parent, { ids }, context, info) => getHandles(ids),
     },
 
     Mutation: {
@@ -38,14 +38,13 @@ const resolvers = {
 
 }
 
-getHandleFile = id => `${globals.data_path}/handle/${Math.floor(id/1000)}/${id}/handle.${id}.json`;
+getHandleFile = id => `${process.env.DATA_PATH}/handle/${Math.floor(id/1000)}/${id}/handle.${id}.json`;
 
 // Object loader
 getHandle = id => {
     return loadJSON(getHandleFile(id));
 }
 getHandles = idArray => {
-    console.log(idArray)
     data = [];
     try {
         idArray.forEach( id => {

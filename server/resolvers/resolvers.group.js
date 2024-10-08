@@ -1,11 +1,11 @@
 
-let globals = require('../config.js').globals;
+
 
 const resolvers = {
 
     Query: {
         group: (parent, { id }, context, info) => getGroup(id),
-        groups: (parent, { id }, context, info) => getGroups(id),
+        groups: (parent, { ids }, context, info) => getGroups(ids),
     },
 
     Mutation: {
@@ -31,11 +31,12 @@ const resolvers = {
     },
     GroupMember: {
         Handle: ({ HandleID }, args, context, info) => getHandle(HandleID),
+        Group: ({ GroupID }, args, context, info) => getGroup(GroupID),
     },
 
 }
 
-getGroupFile = id => `${globals.data_path}/group/${Math.floor(id/1000)}/${id}/group.${id}.json`;
+getGroupFile = id => `${process.env.DATA_PATH}/group/${Math.floor(id/1000)}/${id}/group.${id}.json`;
 
 // Object loader
 getGroup = id => {

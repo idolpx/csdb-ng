@@ -8,6 +8,7 @@ const handle = require('./resolvers.handle.js');
 const event = require('./resolvers.event.js');
 const bbs = require('./resolvers.bbs.js');
 const sid = require('./resolvers.sid.js');
+const search = require('./resolvers.search.js');
 
 let resolvers = {
     ...release.resolvers,
@@ -17,6 +18,7 @@ let resolvers = {
     ...event.resolvers,
     ...bbs.resolvers,
     ...sid.resolvers,
+    ...search.resolvers,
     Query: {
         ...release.resolvers.Query,
         ...group.resolvers.Query,
@@ -25,6 +27,7 @@ let resolvers = {
         ...event.resolvers.Query,
         ...bbs.resolvers.Query,
         ...sid.resolvers.Query,
+        ...search.resolvers.Query,
     },
     Mutation: {
         ...release.resolvers.Mutation,

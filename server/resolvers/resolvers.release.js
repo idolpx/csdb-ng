@@ -1,11 +1,11 @@
 
-let globals = require('../config.js').globals;
+
 
 const resolvers = {
 
     Query: {
         release: (parent, { id }, context, info) => getRelease(id),
-        releases: (parent, { id }, context, info) => getReleases(id),
+        releases: (parent, { ids }, context, info) => getReleases(ids),
     },
 
     Mutation: {
@@ -34,7 +34,7 @@ const resolvers = {
 
 }
 
-getReleaseFile = id => `${globals.data_path}/release/${Math.floor(id/1000)}/${id}/release.${id}.json`;
+getReleaseFile = id => `${process.env.DATA_PATH}/release/${Math.floor(id/1000)}/${id}/release.${id}.json`;
 
 // Object loader
 getRelease = id => {
